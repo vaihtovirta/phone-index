@@ -4,7 +4,10 @@ angular.module "phoneIndex.modules.product"
     vm = this
 
     getProduct = ->
-      Products.one($stateParams.productId).get().then (product) ->
+      Products
+      .one($stateParams.productId)
+      .get({source: $stateParams.source})
+      .then (product) ->
         vm.product = product
 
     getProduct()

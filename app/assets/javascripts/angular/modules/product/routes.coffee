@@ -5,6 +5,9 @@ angular.module "phoneIndex.modules.product"
     $stateProvider
       .state "product",
         url: "/products/:productId"
+        params: {
+          source: "gsm_arena"
+        }
         templateUrl: "products/show.html"
         controller: "ProductController"
         controllerAs: "vm"

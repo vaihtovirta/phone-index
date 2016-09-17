@@ -1,5 +1,7 @@
 .card
-  a(ui-sref="product({ productId: $ctrl.product.id })")
+  a(
+    ui-sref="product({ productId: $ctrl.product.id, source: $ctrl.product.source })"
+  )
     .card-content
       .media
         .media-left
