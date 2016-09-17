@@ -1,5 +1,7 @@
 module GsmArena
-  class ItemPage < BasePage
+  class ShowPage < BasePage
+    include Procto.call
+
     TEXT_ATTRIBUTES = %i(battery camera display expansion).freeze
 
     TEXT_ATTRIBUTES.each do |attribute|
@@ -11,6 +13,20 @@ module GsmArena
           .reject(&:empty?)
       end
     end
+
+    def call
+      {
+        battery: battery,
+        brief: brief,
+        camera: camera,
+        display: display,
+        expansion: expansion,
+        image: image,
+        title: title
+      }
+    end
+
+    private
 
     def brief
       css(".specs-brief span").map(&:text).reject(&:empty?)

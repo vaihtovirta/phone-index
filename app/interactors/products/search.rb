@@ -2,22 +2,21 @@ module Products
   class Search
     include Interactor
 
-    delegate :products, :query, to: :context
+    SOURCES = %w(gsm_arena)
+
+    delegate :products, :sources, :query, to: :context
 
     before do
+      context.sources ||= SOURCES
       context.products = []
     end
 
     def call
       return if query.blank?
 
-      context.products = GsmArena::ListPage.call(raw_html)
-    end
-
-    private
-
-    def raw_html
-      ExternalApi::GsmArena.new(query).search
+      context.products = sources.map do |source|
+        ::SourceManager.call(source, query, "search")
+      end.flatten
     end
   end
 end

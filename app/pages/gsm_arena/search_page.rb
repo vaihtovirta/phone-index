@@ -1,5 +1,5 @@
 module GsmArena
-  class ListPage < BasePage
+  class SearchPage < BasePage
     include Procto.call
 
     DEVICE_LIST_CSS = "#review-body li a".freeze

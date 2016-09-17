@@ -11,5 +11,8 @@ Container.namespace(:external_apis) do
     register(name, -> { url }, memoize: true)
   end
 end
-
-Container.register(:user_agent, -> { UserAgents.rand })
+Container.register(:http_client) do
+  HTTP
+    .follow
+    .headers("User-Agent" => UserAgents.rand)
+end
