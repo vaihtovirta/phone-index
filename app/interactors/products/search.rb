@@ -2,7 +2,7 @@ module Products
   class Search
     include Interactor
 
-    SOURCES = %w(gsm_arena)
+    SOURCES = %w(gsm_arena).freeze
 
     delegate :products, :sources, :query, to: :context
 

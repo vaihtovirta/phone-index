@@ -16,13 +16,13 @@ module GsmArena
 
     def device_page_html
       resolve(:http_client)
-        .get("#{resolve("external_apis.gsm_arena")}/#{query}.php")
+        .get("#{resolve('external_apis.gsm_arena')}/#{query}.php")
         .to_s
     end
 
     def search_results_html
-      resolve(:http_client).
-        get(resolve("external_apis.gsm_arena"), params: { sName: query })
+      resolve(:http_client)
+        .get(resolve("external_apis.gsm_arena"), params: { sName: query })
         .to_s
     end
   end
