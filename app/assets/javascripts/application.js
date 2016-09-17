@@ -24,6 +24,7 @@
 //= require angular/application
 //= require_tree ./angular/configs
 //= require angular/shared/resources/resources.module
+//= require angular/shared/resources/search.factory
 //= require angular/shared/resources/products.factory
 //= require_tree ./angular/services
 //= require angular/modules/main/module

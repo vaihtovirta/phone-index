@@ -1,6 +1,6 @@
-module Api
+module V1
   module Search
-    class ProductsController < ApplicationController
+    class ProductsController < ApiApplicationController
       def index
         result = Products::Search.call(query: params[:query])
 

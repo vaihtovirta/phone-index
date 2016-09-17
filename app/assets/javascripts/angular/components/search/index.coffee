@@ -1,10 +1,10 @@
-SearchController = (Products)->
+SearchController = (Search) ->
   "ngInject"
   ctrl = this
 
   find = ->
-    Products.getList(query: ctrl.query).then (products) ->
-      console.log products
+    Search.products.getList(query: ctrl.query).then (products) ->
+      ctrl.products = products
 
   ctrl.find = find
 

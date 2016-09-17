@@ -5,3 +5,5 @@ form(ng-submit="$ctrl.find()")
       placeholder=("Search")
       type="text"
     )
+ul(ng-repeat="product in $ctrl.products")
+  li(ng-bind="product.title")

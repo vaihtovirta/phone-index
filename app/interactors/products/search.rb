@@ -4,8 +4,14 @@ module Products
 
     delegate :products, :query, to: :context
 
+    before do
+      context.products = []
+    end
+
     def call
-      context.products ||= GsmArena::ListPage.call(raw_html)
+      return if query.blank?
+
+      context.products = GsmArena::ListPage.call(raw_html)
     end
 
     private
