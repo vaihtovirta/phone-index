@@ -30,4 +30,4 @@
 //= require angular/modules/main/module
 //= require angular/modules/main/controller
 //= require angular/modules/main/routes
-//= require angular/components/search
+//= require_tree ./angular/components
