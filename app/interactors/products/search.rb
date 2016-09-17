@@ -17,7 +17,7 @@ module Products
     private
 
     def raw_html
-      ExternalApi::GsmArena.call(query)
+      ExternalApi::GsmArena.new(query).search
     end
   end
 end

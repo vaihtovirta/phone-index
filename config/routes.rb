@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
     resources :products, only: %i(show)
   end
+
+  get "*path" => "dashboard#index"
 end

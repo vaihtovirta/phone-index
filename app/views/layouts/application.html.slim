@@ -1,6 +1,7 @@
 doctype html
 html ng-app="phoneIndex" ng-controller="MainController"
   head
+    base href="/"
     title Phone Index
     = csrf_meta_tags
 
@@ -8,6 +9,5 @@ html ng-app="phoneIndex" ng-controller="MainController"
     = javascript_include_tag "application"
 
   body
-    div.section ui-view=""
-      .container
-        = yield
+    div.section.hero.is-light ui-view=""
+      = yield

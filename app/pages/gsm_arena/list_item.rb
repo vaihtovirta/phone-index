@@ -10,7 +10,7 @@ module GsmArena
         description: description,
         image_url: image_url,
         title: title,
-        url: attr("href")
+        id: attr("href").split(".php").first
       }
     end
 

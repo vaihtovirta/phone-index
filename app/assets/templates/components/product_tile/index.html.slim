@@ -1,9 +1,10 @@
 .card
-  .card-content
-    .media
-      .media-left
-        figure.image.is-32x32
-          img(ng-src="{{$ctrl.product.image_url}}")
-      .media-content
-        p.title.is-5(ng-bind="$ctrl.product.title")
-    .content(ng-bind="$ctrl.product.description")
+  a(ui-sref="product({ productId: $ctrl.product.id })")
+    .card-content
+      .media
+        .media-left
+          figure.image.is-32x32
+            img(ng-src="{{$ctrl.product.image_url}}")
+        .media-content
+          p.title.is-5(ng-bind="$ctrl.product.title")
+      .content(ng-bind="$ctrl.product.description")

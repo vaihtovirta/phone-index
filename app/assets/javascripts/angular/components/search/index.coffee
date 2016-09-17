@@ -1,12 +1,12 @@
-SearchController = (Search) ->
+SearchController = (Search, $state) ->
   "ngInject"
   ctrl = this
 
-  find = ->
+  search = ->
     Search.products.getList(query: ctrl.query).then (products) ->
       ctrl.products = products
 
-  ctrl.find = find
+  ctrl.search = search
 
   return
 

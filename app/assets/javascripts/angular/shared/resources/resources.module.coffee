@@ -1,1 +1,1 @@
-angular.module 'phoneIndex.resources', ['restangular']
+angular.module "phoneIndex.resources", ["restangular"]

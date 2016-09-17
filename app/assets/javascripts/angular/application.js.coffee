@@ -10,6 +10,7 @@ angular.module("phoneIndex", [
   "phoneIndex.resources",
 
   "phoneIndex.modules.main"
+  "phoneIndex.modules.product"
 ]).config ($urlRouterProvider) ->
   "ngInject"
 
