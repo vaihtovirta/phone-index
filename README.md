@@ -1,24 +1,3 @@
-# README
+[ ![Codeship Status for olympicsmoker/phone-index](https://codeship.com/projects/f52805b0-6008-0134-1d94-065e33494ddb/status?branch=master)](https://codeship.com/projects/174462)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://phone-index.herokuapp.com/
