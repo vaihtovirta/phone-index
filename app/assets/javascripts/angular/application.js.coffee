@@ -8,7 +8,6 @@ angular.module("phoneIndex", [
   "templates",
 
   "phoneIndex.resources",
-
   "phoneIndex.modules.main"
   "phoneIndex.modules.product"
 ]).config ($urlRouterProvider) ->

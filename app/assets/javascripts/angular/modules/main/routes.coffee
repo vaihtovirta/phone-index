@@ -3,7 +3,7 @@ angular.module "phoneIndex.modules.main"
     "ngInject"
 
     $stateProvider
-      .state "home",
+      .state "main",
         url: "/"
         templateUrl: "main/index.html"
         controller: "MainController"

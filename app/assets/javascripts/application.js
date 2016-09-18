@@ -11,9 +11,9 @@
 // Angular
 //= require angular/application
 //= require_tree ./angular/configs
-//= require angular/shared/resources/resources.module
-//= require angular/shared/resources/search.factory
-//= require angular/shared/resources/products.factory
+//= require angular/resources/resources.module
+//= require angular/resources/search.factory
+//= require angular/resources/products.factory
 //= require_tree ./angular/services
 //= require angular/modules/main/module
 //= require angular/modules/main/controller

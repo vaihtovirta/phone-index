@@ -35,6 +35,10 @@ group :development, :test do
   gem "rubocop", require: false
 end
 
+group :development do
+  gem "listen", "~> 3.0.5"
+end
+
 group :test do
   gem "rspec-rails"
   gem "vcr"
