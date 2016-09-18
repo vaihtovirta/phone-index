@@ -11,7 +11,6 @@ gem "angularjs-rails"
 gem "bulma-rails", "~> 0.1.2"
 gem "coffee-rails", "~> 4.2"
 gem "concord"
-gem "decent_exposure"
 gem "dry-container"
 gem "http"
 gem "interactor"
@@ -26,15 +25,9 @@ gem "uglifier", ">= 1.3.0"
 gem "useragents"
 
 source "https://rails-assets.org" do
+  gem "rails-assets-ng-lodash"
   gem "rails-assets-restangular"
   gem "rails-assets-ui-router"
-  gem "rails-assets-ng-lodash"
-end
-
-group :development do
-  gem "listen", "~> 3.0.5"
-  gem "spring-watcher-listen", "~> 2.0.0"
-  gem "spring"
 end
 
 group :development, :test do

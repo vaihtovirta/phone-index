@@ -10,20 +10,17 @@ describe GsmArena::ShowPage do
       end
     end
     let(:brief) do
-      [
-        "Released 2016, April",
-        "129g / 139g, 7.3mm thickness",
-        "Android OS, v6.0",
-        "128GB storage, no card slot"
-      ]
+      "Released 2016, April 129g / 139g, "\
+      "7.3mm thickness Android OS, "\
+      "v6.0 128GB storage, no card slot"
     end
     let(:product) do
       {
-        battery: ["3000mAhLi-Po"],
+        battery: "3000mAhLi-Po",
         brief: brief,
-        camera:  %w(16MP 2160p),
-        display: ["5.15\"1080x1920 pixels"],
-        expansion: ["4GB RAM", "Snapdragon 820"],
+        camera:  "16MP 2160p",
+        display: "5.15\"1080x1920 pixels",
+        expansion: "4GB RAM Snapdragon 820",
         image: "http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg",
         title: "Xiaomi Mi 5"
       }
