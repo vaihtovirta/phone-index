@@ -1,9 +1,15 @@
-form(ng-submit="$ctrl.search()")
-  p.control
-    input.input.is-large(
-      ng-model="$ctrl.query"
-      placeholder=("Search")
-      type="text"
-    )
-.column.is-half(ng-repeat="product in $ctrl.products")
-  pi-product-tile(product="product")
+.column.is-6.is-offset-one-quarter
+  form(ng-submit="$ctrl.search()")
+    p.control
+      input.input.is-large(
+        ng-model="$ctrl.query"
+        placeholder=("Search")
+        type="text"
+      )
+
+br
+
+.products(ng-repeat="group in $ctrl.productGroups")
+  .columns
+    div(ng-repeat="product in group")
+      pi-product-tile(product="product")

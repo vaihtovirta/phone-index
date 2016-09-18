@@ -11,6 +11,7 @@ module GsmArena
           .split("\r\n")
           .map(&:squish)
           .reject(&:empty?)
+          .join(" ")
       end
     end
 
@@ -29,7 +30,10 @@ module GsmArena
     private
 
     def brief
-      css(".specs-brief span").map(&:text).reject(&:empty?)
+      css(".specs-brief span")
+        .map(&:text)
+        .reject(&:empty?)
+        .join(" ")
     end
 
     def image

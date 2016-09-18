@@ -1,12 +1,12 @@
-.card
-  a(
-    ui-sref="product({ productId: $ctrl.product.id, source: $ctrl.product.source })"
-  )
-    .card-content
-      .media
-        .media-left
-          figure.image.is-32x32
-            img(ng-src="{{$ctrl.product.image_url}}")
-        .media-content
-          p.title.is-5(ng-bind="$ctrl.product.title")
-      .content(ng-bind="$ctrl.product.description")
+.column(ng-attr-title="{{$ctrl.product.description}}")
+  .card
+    a(
+      ui-sref="product({ productId: $ctrl.product.id, source: $ctrl.product.source })"
+    )
+      .card-content
+        .media
+          .media-left
+            figure.image.is-32x32
+              img(ng-src="{{$ctrl.product.image_url}}")
+          .media-content
+            p.title.is-5(ng-bind="$ctrl.product.title")

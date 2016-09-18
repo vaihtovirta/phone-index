@@ -4,7 +4,7 @@ SearchController = (Search, $state) ->
 
   search = ->
     Search.products.getList(query: ctrl.query).then (products) ->
-      ctrl.products = products
+      ctrl.productGroups = _.chunk products, 4
 
   ctrl.search = search
 
