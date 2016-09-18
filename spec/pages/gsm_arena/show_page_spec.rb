@@ -21,7 +21,7 @@ describe GsmArena::ShowPage do
       {
         battery: ["3000mAhLi-Po"],
         brief: brief,
-        camera:  ["16MP", "2160p"],
+        camera:  %w(16MP 2160p),
         display: ["5.15\"1080x1920 pixels"],
         expansion: ["4GB RAM", "Snapdragon 820"],
         image: "http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg",

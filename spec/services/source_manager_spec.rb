@@ -5,7 +5,7 @@ describe SourceManager do
 
   describe "#call" do
     let(:client) { double(:client) }
-    let(:page) { "show"}
+    let(:page) { "show" }
     let(:query) { "iphone 7" }
     let(:source) { "gsm_arena" }
 

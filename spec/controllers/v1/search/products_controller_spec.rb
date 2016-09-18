@@ -2,7 +2,6 @@ require "rails_helper"
 
 describe V1::Search::ProductsController, type: :request do
   describe "#GET index" do
-
     before do
       VCR.use_cassette("gsm_arena/search") do
         get v1_search_products_url(query: query)
