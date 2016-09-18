@@ -33,9 +33,15 @@ group :development do
   gem "listen", "~> 3.0.5"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "spring"
-  gem "rubocop", require: false
 end
 
 group :development, :test do
   gem "pry-rails"
+  gem "rubocop", require: false
+end
+
+group :test do
+  gem "rspec-rails"
+  gem "vcr"
+  gem "webmock"
 end

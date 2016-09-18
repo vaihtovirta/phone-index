@@ -1,0 +1,372 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gsmarena.com/results.php3?sName=xiaomi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0
+      Connection:
+      - close
+      Host:
+      - gsmarena.com
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Sun, 18 Sep 2016 15:37:34 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Location:
+      - http://www.gsmarena.com/results.php3?sName=xiaomi
+      Content-Length:
+      - '311'
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: ISO-8859-1
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>302 Found</title>
+        </head><body>
+        <h1>Found</h1>
+        <p>The document has moved <a href="http://www.gsmarena.com/results.php3?sName=xiaomi">here</a>.</p>
+        <hr>
+        <address>Apache/2.2.15 (CentOS) Server at gsmarena.com Port 80</address>
+        </body></html>
+    http_version: 
+  recorded_at: Sun, 18 Sep 2016 15:37:37 GMT
+- request:
+    method: get
+    uri: http://www.gsmarena.com/results.php3?sName=xiaomi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0
+      Connection:
+      - close
+      Host:
+      - www.gsmarena.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 Sep 2016 15:37:35 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.5.38
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: ISO-8859-1
+      string: "<!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\"
+        lang=\"en-US\">\r\n<head>\r\n<title>Phone Finder results - GSMArena.com</title>\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/gsmarena.css?v=3\">\r\n<!--[if
+        lt IE 9]>\r\n<script src=\"http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js\"></script>\r\n<![endif]-->\r\n\r\n\r\n\r\n\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/reviews.css\">\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/makers.css\">\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/searchband.css\">\r\n\r\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\r\n<link
+        rel=\"shortcut icon\" href=\"i/favicon.ico\" />\r\n\r\n</head>\r\n<body>\r\n\r\n<script
+        type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n\r\n<script
+        type=\"text/javascript\" src=\"http://st.gsmarena.com/vv/assets8/js/misc.js?v=2\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://st.gsmarena.com/vv/assets8/js/autocomplete.js?ver=3\"></script>\r\n<script
+        type=\"text/javascript\" language=\"javascript\">\r\nAUTOCOMPLETE_LIST_URL
+        = \"/quicksearch-8089.jpg\";\r\n$gsm.addEventListener(document, \"DOMContentLoaded\",
+        function() \r\n{\r\n    new Autocomplete( \"topsearch-text\", \"topsearch\",
+        true );\r\n}\r\n)\r\n</script>\r\n<script language='JavaScript' type='text/javascript'>\r\nfunction
+        phpads_deliverActiveX(content)\r\n{\r\n\tdocument.write(content);\t\r\n}\r\n</script>\r\n<header
+        id=\"header\" class=\"row\">\r\n<div class=\"wrapper clearfix\">\r\n<div class=\"top-bar
+        clearfix\">\r\n<!-- HAMBURGER MENU -->\r\n<button type=\"button\" role=\"button\"
+        aria-label=\"Toggle Navigation\" class=\"lines-button minus focused\">\r\n<span
+        class=\"lines\"></span>\r\n</button>\r\n<!-- /HAMBURGER MENU -->\r\n\r\n\r\n\r\n<!--
+        LOGO -->\r\n<div id=\"logo\">\r\n<a href=\"/\">\r\n\r\n<object type=\"image/svg+xml\"
+        data=\"http://st.gsmarena.com/vv/assets8/i/logo.svg\"><img src=\"http://st.gsmarena.com/vv/assets8/i/logo-fallback.gif\"
+        alt=\"GSMArena.com\"></object>\r\n<span>GSMArena.com</span></a>\r\n</div>\r\n\r\n\r\n\r\n<div
+        id=\"nav\" role=\"main\">\r\n<form action=\"results.php3\" method=\"get\"
+        id=\"topsearch\">\r\n    <input type=\"hidden\" name=\"sQuickSearch\" value=\"yes\">\r\n
+        \   <input type=\"text\" placeholder=\"Search\" tabindex=\"201\" accesskey=\"s\"
+        id=\"topsearch-text\" name=\"sName\" autocomplete=\"off\" />\r\n    <span
+        id=\"quick-search-button\">\r\n      <input type=\"submit\" value=\"Go\" />\r\n
+        \     <i class=\"head-icon icomoon-liga icon-search-left\"></i>\r\n    </span>\r\n
+        \   \r\n\r\n</form>\r\n</div>\r\n\r\n\r\n<div id=\"social-connect\">\r\n<a
+        href=\"tipus.php3\" class=\"tip-icon\">\r\n  <i class=\"head-icon icon-tip-us
+        icomoon-liga\"></i><br><span class=\"icon-count\">Tip us</span>\r\n</a>\r\n<a
+        href=\"https://www.facebook.com/GSMArenacom-189627474421/\" class=\"fb-icon\"
+        target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-fb2 icomoon-liga\"></i><br><span
+        class=\"icon-count\">848k</span>\r\n</a>\r\n<a href=\"http://twitter.com/gsmarena_com\"
+        class=\"tw-icon\" target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-twitter2
+        icomoon-liga\"></i><br><span class=\"icon-count\">113k</span>\r\n</a>\r\n\r\n<a
+        href=\"https://plus.google.com/116083888509266864115?prsrc=3\" class=\"gp-icon\"
+        target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-gplus icomoon-liga\"></i>\r\n
+        \ <span class=\"icon-count\">86k</span>\r\n</a>\r\n<a href=\"http://youtube.com/user/gsmarena07\"
+        class=\"yt-icon\" target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-youtube
+        icomoon-liga\"></i><br><span class=\"icon-count\">164k</span>\r\n</a>\r\n<a
+        href=\"rss-news-reviews.php3\" class=\"rss-icon\">\r\n  <i class=\"head-icon
+        icon-soc-rss2 icomoon-liga\"></i><br><span class=\"icon-count\">RSS</span>\r\n</a>\r\n\r\n\r\n\r\n\r\n\t<a
+        href=\"#\" onclick=\"return false;\" class=\"login-icon\" id=\"login-active\">\r\n\t
+        \ <i class=\"head-icon icon-login\"></i><br><span class=\"icon-count\" style=\"right:4px;\">Log
+        in</span>\r\n\t</a>\r\n\r\n\t<span class=\"tooltip\" id=\"login-popup\">\r\n\t
+        \  <p>\r\n\t     Login with<br />\r\n\t     <a href=\"login-facebook.php3?rdr=MG16bGpza2wxb3dvLCBsUX5yeiJndn5wcnY%3D\"><i
+        class=\"head-icon icon-soc-fb2\"></i>Facebook</a>\r\n\t     <a class=\"g-login\"
+        href=\"login-google.php3?rdr=MG16bGpza2wxb3dvLCBsUX5yeiJndn5wcnY%3D\"><i class=\"head-icon
+        icon-soc-gplus\"></i>Google</a>\r\n\t   </p>\r\n\t</span>\r\n <a href=\"nickname.php3?sSource=MG16bGpza2wxb3dvLCBsUX5yeiJndn5wcnY%3D\"
+        class=\"signup-icon no-margin-right\"><i class=\"head-icon icon-user-plus\"></i><span
+        class=\"icon-count\">Sign up</span></a>  \r\n              </div>  \r\n           </div>
+        \                \r\n<ul id=\"menu\" class=\"main-menu-list\">\r\n<li><a href=\"/\">Home</a></li>\r\n\t<li><a
+        href=\"news.php3\">News</a></li>\r\n\t<li><a href=\"reviews.php3\">Reviews</a></li>\r\n\t<li><a
+        href=\"blog.php3\">Blog</a></li>\r\n\t<li><a href=\"compare.php3\">Compare</a></li>\r\n\t<li><a
+        href=\"tools.php3\">Tools</a></li>\r\n\t<li><a href=\"glossary.php3\">Glossary</a></li>\r\n\t<li><a
+        href=\"network-bands.php3\">Coverage</a></li>\r\n\t<li><a href=\"faq.php3\">FAQ</a></li>\r\n\t<li><a
+        href=\"contact.php3\">Contact</a></li>   \r\n                  \r\n      </ul>\r\n
+        \     <!-- SOCIAL CONNECT -->\r\n    </div>\r\n    \r\n\r\n</header> <!---
+        HEADER END -->\r\n\r\n\r\n\t\t\r\n\r\n<div id=\"wrapper\" class=\"l-container\">\r\n<div
+        id=\"outer\" class=\"row\">\r\n\r\n\r\n<div id=\"subHeader\" class=\"col\">\r\n<div
+        id=\"topPromo\">\t\t\r\n\t\t<div class=\"alt-display is-review\" style=\"background-image:
+        url(http://cdn.gsmarena.com/imgroot/reviews/16/oneplus-3/-347x151/gsmarena_001.jpg)\">\r\n\t\t
+        \ <a class=\"table-cell reviews-xl-snazzy\" href=\"oneplus_3-review-1455.php\">\r\n\t\t\t
+        \ <div class=\"module-review-xl-title\">\r\n\t\t\t \r\n\t\t\t    \t<span>Confidence
+        booster</span><br>\r\n\t\t\t    \t<strong>OnePlus 3 review</strong>\r\n\t\t\t
+        \  \r\n\t\t\t  \r\n\t\t \t  </div>\r\n\t\t </a>\r\n\t  </div>\r\n</div><div
+        id=\"topAdv\" class=\"l-box\">\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
+        \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
+        = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
+        \  \r\n   document.write (\"<\" + \"script language='JavaScript' type='text/javascript'
+        src='\");\r\n   document.write (\"http://a.gsmarena.com/adjs.php?n=\" + phpAds_random);\r\n
+        \  document.write (\"&amp;what=zone:5&amp;target=_blank\");\r\n   document.write
+        (\"&amp;exclude=\" + document.phpAds_used);\r\n   if (document.referrer)\r\n
+        \     document.write (\"&amp;referer=\" + escape(document.referrer));\r\n
+        \  document.write (\"'><\" + \"/script>\");\r\n//-->\r\n</script><noscript><a
+        href='http://a.gsmarena.com/adclick.php?n=afad88d6' target='_blank'><img src='http://a.gsmarena.com/adview.php?what=zone:5&amp;n=afad88d6'
+        border='0' alt=''></a></noscript>\r\n</div>   \r\n</div>\r\n\r\n\r\n<div id=\"body\"
+        class=\"clearfix\">\r\n\r\n<div class=\"main right main-maker l-box col search-results\">
+        \ \r\n\r\n\r\n\r\n<style>\r\n.center-stage-background {  filter: url(\"data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='8'%20/></filter></svg>#blur\");
+        -webkit-filter: blur(8px);  -moz-filter: blur(8px);   -ms-filter: blur(8px);
+        \ filter: blur(8px); }\r\n</style>\r\n<div class=\"review-header hreview float-right\">
+        \ \r\n<div class=\"review-hd overflow darken\">\r\n<div class=\"article-info\">\r\n
+        \   <div class=\"article-info-line border-bottom\">\r\n        <div class=\"blur\"></div>\r\n\r\n</div>\r\n<div
+        class=\"center-stage article-accent\">\r\n    <div class=\"article-hgroup\">\r\n
+        \       \r\n        <br>\r\n        <h1 class=\"article-info-name\">Phone
+        finder results</h1>\r\n    </div>\r\n    <img class=\"center-stage-background\"
+        src=\"http://cdn.gsmarena.com/imgroot/static/headers/3.jpg\">\r\n</div>\r\n<div
+        class=\"article-info-line\">\r\n    <div class=\"blur bottom\"></div><ul class=\"article-info-meta\">
+        \ \r\n<li class=\"article-info-meta-link light large help help-review\">\t\r\n<a
+        href=\"search.php3?sName=xiaomi\"><i class=\"head-icon icon-equalizer2\"></i>Refine</a></li>\r\n</ul>\r\n\r\n
+        \   </div>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"st-text\">\r\n\t<p>Your
+        search returned <b>37</b> results.<br> To refine your search <a href=\"search.php3?sName=xiaomi\">click
+        here</a>.</p>\r\n\t</div>\r\n\r\n\r\n\r\n<div id=\"review-body\" class=\"section-body\">\r\n<div
+        class=\"makers\">\r\n<ul>\r\n\r\n\r\n\r\n<li><a href=\"xiaomi_redmi_note_3-7863.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg title=\"Xiaomi
+        Redmi Note 3 Android smartphone. Announced 2016, January. Features 3G, 5.5&Prime;
+        IPS LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note 3</span></strong></a></li><li><a href=\"xiaomi_redmi_3s_prime-8250.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg title=\"Xiaomi
+        Redmi 3s Prime Android smartphone. Announced 2016, August. Features 3G, 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3s Prime</span></strong></a></li><li><a href=\"xiaomi_redmi_3s-8150.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg title=\"Xiaomi
+        Redmi 3s Android smartphone. Announced 2016, June. Features 3G, 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3s</span></strong></a></li><li><a href=\"xiaomi_mi_5-6948.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg
+        title=\"Xiaomi Mi 5 Android smartphone. Announced 2016, February. Features
+        3G, 5.15&Prime; IPS LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS,
+        Bluetooth.\"><strong><span>Xiaomi<br>Mi 5</span></strong></a></li><li><a href=\"xiaomi_redmi_note_4-8291.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg title=\"Xiaomi
+        Redmi Note 4 Android smartphone. Announced 2016, August. Features 3G, 5.5&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note 4</span></strong></a></li><li><a href=\"xiaomi_redmi_3_pro-8007.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg title=\"Xiaomi
+        Redmi 3 Pro Android smartphone. Announced 2016, March. Features 3G, 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3 Pro</span></strong></a></li><li><a href=\"xiaomi_mi_max-8057.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-.jpg title=\"Xiaomi Mi
+        Max Android smartphone. Announced 2016, May. Features 3G, 6.44&Prime; IPS
+        LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        Max</span></strong></a></li><li><a href=\"xiaomi_redmi_3-7862.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-.jpg
+        title=\"Xiaomi Redmi 3 Android smartphone. Announced 2016, January. Features
+        3G, 5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3</span></strong></a></li><li><a href=\"xiaomi_redmi_pro-8233.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pro.jpg
+        title=\"Xiaomi Redmi Pro Android smartphone. Announced 2016, July. Features
+        3G, 5.5&Prime; LTPS-AMOLED capacitive touchscreen, Dual 13 MP + 5MP camera,
+        Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi Pro</span></strong></a></li><li><a
+        href=\"xiaomi_mi_4-6518.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4.jpg
+        title=\"Xiaomi Mi 4 Android smartphone. Announced 2014, July. Features 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4</span></strong></a></li><li><a href=\"xiaomi_redmi_2-6884.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2.jpg
+        title=\"Xiaomi Redmi 2 Android smartphone. Announced 2015, January. Features
+        3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        2</span></strong></a></li><li><a href=\"xiaomi_mi_4i-7211.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi4i.jpg
+        title=\"Xiaomi Mi 4i Android smartphone. Announced 2015, April. Features 3G,
+        5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4i</span></strong></a></li><li><a href=\"xiaomi_redmi_note_2-6992.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-2--.jpg title=\"Xiaomi
+        Redmi Note 2 Android smartphone. Announced 2015, August. Features 3G, 5.5&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note 2</span></strong></a></li><li><a href=\"xiaomi_mi_4c-7512.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4c.jpg title=\"Xiaomi Mi
+        4c Android smartphone. Announced 2015, September. Features 3G, 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4c</span></strong></a></li><li><a href=\"xiaomi_redmi_2_prime-7480.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2-prime-.jpg title=\"Xiaomi
+        Redmi 2 Prime Android smartphone. Announced 2015, August. Features 3G, 4.7&Prime;
+        IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        2 Prime</span></strong></a></li><li><a href=\"xiaomi_redmi_3x-8212.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3x.jpg title=\"Xiaomi
+        Redmi 3x Android smartphone. Announced 2016, June. Features 3G, 5.0&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3x</span></strong></a></li><li><a href=\"xiaomi_mi_note_2-8014.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg title=\"Xiaomi
+        Mi Note 2 Android smartphone. Exp. announcement 2016, September. Features
+        3G, 5.7&Prime; Super AMOLED capacitive touchscreen, 16 MP camera, Wi-Fi, GPS,
+        Bluetooth.\"><strong><span>Xiaomi<br>Mi Note 2</span></strong></a></li><li><a
+        href=\"xiaomi_redmi_note-6217.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-new.jpg
+        title=\"Xiaomi Redmi Note Android smartphone. Announced 2014, March. Features
+        3G, 5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note</span></strong></a></li><li><a href=\"xiaomi_redmi_note_4g-6561.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4g.jpg title=\"Xiaomi
+        Redmi Note 4G Android smartphone. Announced 2014, August. Features 3G, 5.5&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note 4G</span></strong></a></li><li><a href=\"xiaomi_mi_3-5678.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi3.jpg title=\"Xiaomi Mi 3
+        Android smartphone. Announced 2013, September. Features 3G, 5.0&Prime; IPS
+        LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        3</span></strong></a></li><li><a href=\"xiaomi_redmi_1s-6373.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/Xiaomi-Hongmi-Redmi-1s.jpg
+        title=\"Xiaomi Redmi 1S Android smartphone. Announced 2014, May. Features
+        3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        1S</span></strong></a></li><li><a href=\"xiaomi_redmi_note_3_(mediatek)-7769.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg title=\"Xiaomi
+        Redmi Note 3 (MediaTek) Android smartphone. Announced 2015, November. Features
+        3G, 5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note 3 (MediaTek)</span></strong></a></li><li><a href=\"xiaomi_mi_4s-7962.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4s.jpg title=\"Xiaomi Mi
+        4s Android smartphone. Announced 2016, February. Features 3G, 5.0&Prime; IPS
+        LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4s</span></strong></a></li><li><a href=\"xiaomi_mi_note_pro-6952.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-pro2.jpg title=\"Xiaomi
+        Mi Note Pro Android smartphone. Announced 2015, January. Features 3G, 5.7&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        Note Pro</span></strong></a></li><li><a href=\"xiaomi_mi_note-6944.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg title=\"Xiaomi
+        Mi Note Android smartphone. Announced 2015, January. Features 3G, 5.7&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        Note</span></strong></a></li><li><a href=\"xiaomi_mi_5s-7260.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg
+        title=\"Xiaomi Mi 5S Android smartphone. Not announced yet. Features 3G, 5.15&Prime;
+        IPS LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        5S</span></strong></a></li><li><a href=\"xiaomi_redmi_4-8263.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg
+        title=\"Xiaomi Redmi 4 Android smartphone. Not announced yet. Features 3G,
+        5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        4</span></strong></a></li><li><a href=\"xiaomi_mi_4_lte-6866.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4-lte.jpg
+        title=\"Xiaomi Mi 4 LTE Android smartphone. Announced 2014, December. Features
+        3G, 5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4 LTE</span></strong></a></li><li><a href=\"xiaomi_redmi_2_pro-7710.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2-prime-.jpg title=\"Xiaomi
+        Redmi 2 Pro Android smartphone. Announced 2015, October. Features 3G, 4.7&Prime;
+        IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        2 Pro</span></strong></a></li><li><a href=\"xiaomi_redmi_note_prime-7822.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-prime-.jpg title=\"Xiaomi
+        Redmi Note Prime Android smartphone. Announced 2015, December. Features 3G,
+        5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        Note Prime</span></strong></a></li><li><a href=\"xiaomi_mi_2-4928.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi2.jpg title=\"Xiaomi Mi 2
+        Android smartphone. Announced 2012, August. Features 3G, 4.3&Prime; IPS LCD
+        capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        2</span></strong></a></li><li><a href=\"xiaomi_mi_1s-4929.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi1.jpg
+        title=\"Xiaomi Mi 1S Android smartphone. Announced 2012, August. Features
+        3G, 4.0&Prime; TFT capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        1S</span></strong></a></li><li><a href=\"xiaomi_mi_2s-5397.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi2s.jpg
+        title=\"Xiaomi Mi 2S Android smartphone. Announced 2013, April. Features 3G,
+        4.3&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        2S</span></strong></a></li><li><a href=\"xiaomi_redmi-5609.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-hongmi.jpg
+        title=\"Xiaomi Redmi Android smartphone. Announced 2013, July. Features 3G,
+        4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi</span></strong></a></li><li><a
+        href=\"xiaomi_mi_note_plus-6960.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg
+        title=\"Xiaomi Mi Note Plus Android smartphone. Announced Not announced yet.
+        Features 5.7&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS,
+        Bluetooth.\"><strong><span>Xiaomi<br>Mi Note Plus</span></strong></a></li><li><a
+        href=\"xiaomi_redmi_2a-7159.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2.jpg
+        title=\"Xiaomi Redmi 2A Android smartphone. Announced 2015, March. Features
+        3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        2A</span></strong></a></li><li><a href=\"xiaomi_mi_2a-5646.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi2a.jpg
+        title=\"Xiaomi Mi 2A Android smartphone. Announced 2013. Features 3G, 4.5&Prime;
+        IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        2A</span></strong></a></li>\r\n\r\n\r\n</ul>\r\n<br class=\"clear\">\r\n</div>\r\n\r\n</div>\r\n\r\n<br
+        class=\"clearfix\">\r\n\r\n\r\n<div class=\"st-text\">\r\n<p class=\"note\">Note:
+        Please report wrong Phone Finder results <script>document.write (\"<a href=\\\"mailto:inf\"+\"o@gsmaren\"+\"a.com\"+\"\\\">\")</script>here</a>.</p>\t\r\n</div>\r\n\r\n\r\n\r\n\r\n</div>\r\n\r\n<aside
+        class=\"sidebar col left\">\r\n\r\n<div class=\"brandmenu-v2 light l-box clearfix\">\r\n<p
+        class=\"pad\">\r\n<a href=\"search.php3\" class=\"pad-single pad-finder\">\r\n<i
+        class=\"head-icon icon-search-right\"></i>\r\n<span>Phone finder</span></a>\r\n</p>\r\n<ul>\r\n<li><a
+        href=\"samsung-phones-9.php\">Samsung</a></li><li><a href=\"apple-phones-48.php\">Apple</a></li><li><a
+        href=\"microsoft-phones-64.php\">Microsoft</a></li><li><a href=\"nokia-phones-1.php\">Nokia</a></li><li><a
+        href=\"sony-phones-7.php\">Sony</a></li><li><a href=\"lg-phones-20.php\">LG</a></li><li><a
+        href=\"htc-phones-45.php\">HTC</a></li><li><a href=\"motorola-phones-4.php\">Motorola</a></li><li><a
+        href=\"huawei-phones-58.php\">Huawei</a></li><li><a href=\"lenovo-phones-73.php\">Lenovo</a></li><li><a
+        href=\"xiaomi-phones-80.php\">Xiaomi</a></li><li><a href=\"acer-phones-59.php\">Acer</a></li><li><a
+        href=\"asus-phones-46.php\">Asus</a></li><li><a href=\"oppo-phones-82.php\">Oppo</a></li><li><a
+        href=\"oneplus-phones-95.php\">OnePlus</a></li><li><a href=\"meizu-phones-74.php\">Meizu</a></li><li><a
+        href=\"blackberry-phones-36.php\">BlackBerry</a></li><li><a href=\"alcatel-phones-5.php\">Alcatel</a></li><li><a
+        href=\"zte-phones-62.php\">ZTE</a></li><li><a href=\"toshiba-phones-44.php\">Toshiba</a></li><li><a
+        href=\"vodafone-phones-53.php\">Vodafone</a></li><li><a href=\"gigabyte-phones-47.php\">Gigabyte</a></li><li><a
+        href=\"pantech-phones-32.php\">Pantech</a></li><li><a href=\"xolo-phones-85.php\">XOLO</a></li><li><a
+        href=\"lava-phones-94.php\">Lava</a></li><li><a href=\"micromax-phones-66.php\">Micromax</a></li><li><a
+        href=\"blu-phones-67.php\">BLU</a></li><li><a href=\"gionee-phones-92.php\">Gionee</a></li><li><a
+        href=\"vivo-phones-98.php\">vivo</a></li><li><a href=\"yu-phones-100.php\">YU</a></li><li><a
+        href=\"verykool-phones-70.php\">verykool</a></li><li><a href=\"maxwest-phones-87.php\">Maxwest</a></li><li><a
+        href=\"niu-phones-79.php\">NIU</a></li><li><a href=\"yezz-phones-78.php\">Yezz</a></li><li><a
+        href=\"parla-phones-81.php\">Parla</a></li><li><a href=\"plum-phones-72.php\">Plum</a></li></ul>\r\n\r\n<p
+        class=\"pad\">\r\n<a href=\"makers.php3\" class=\"pad-multiple pad-allbrands\">\r\n
+        \ <i class=\"head-icon icon-mobile-phone231\"></i>\r\n  <span>All brands</span>\r\n</a>\r\n<a
+        href=\"rumored.php3\" class=\"pad-multiple pad-rumormill\">\r\n  <i class=\"head-icon
+        icon-rumored\"></i>\r\n  <span>Rumor mill</span>\r\n</a>\r\n</p>\r\n</div>\r\n<div
+        class=\"adv banner-mpu\">\r\n\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
+        \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
+        = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
+        \  \r\n   document.write (\"<\" + \"script language='JavaScript' type='text/javascript'
+        src='\");\r\n   document.write (\"http://a.gsmarena.com/adjs.php?n=\" + phpAds_random);\r\n
+        \  document.write (\"&amp;what=zone:156&amp;target=_blank\");\r\n   document.write
+        (\"&amp;exclude=\" + document.phpAds_used);\r\n   if (document.referrer)\r\n
+        \     document.write (\"&amp;referer=\" + escape(document.referrer));\r\n
+        \  document.write (\"'><\" + \"/script>\");\r\n//-->\r\n</script><noscript><a
+        href='http://a.gsmarena.com/adclick.php?n=afad88d6' target='_blank'><img src='http://a.gsmarena.com/adview.php?what=zone:5&amp;n=afad88d6'
+        border='0' alt=''></a></noscript>\r\n</div>\r\n\r\n\r\n\r\n</aside>\r\n\r\n</div><!--
+        id body -->\r\n</div><!-- id outer -->\r\n\r\n\r\n<div id=\"footer\">\r\n
+        <div class=\"footer-logo\">\r\n     <img src=\"http://cdn2.gsmarena.com/w/css/logo-gsmarena-com.gif\"
+        alt=\"\" />\r\n    </div>\r\n    <div id=\"footmenu\">\r\n<p>\r\n<a href=\"/\">Home</a>\r\n<a
+        href=\"news.php3\">News</a>\r\n<a href=\"reviews.php3\">Reviews</a>\r\n<a
+        href=\"blog.php3\">Blog</a>\r\n<a href=\"compare.php3\">Compare</a>\r\n<a
+        href=\"network-bands.php3\">Coverage</a>\r\n<a href=\"glossary.php3\">Glossary</a>\r\n<a
+        href=\"faq.php3\">FAQ</a>\r\n\r\n<a href=\"rss-news-reviews.php3\" class=\"rss-icon\">RSS
+        feed</a></li>\r\n<a target=\"_blank\" href=\"https://www.facebook.com/GSMArenacom-189627474421/\"
+        class=\"fb-icon\">Facebook</a>\r\n<a target=\"_blank\" href=\"http://twitter.com/gsmarena_com\"
+        class=\"tw-icon\">Twitter</a>\r\n\r\n</p>\r\n<p>\r\n&copy; 2000-2016 <a href=\"team.php3\">GSMArena.com</a>
+        \r\n<a href=\"http://www.gsmarena.com/switch.php3?ver=mobile&ref=MG16bGpza2wxb3dvLCBsUX5yeiJndn5wcnY%3D\">Mobile
+        version</a>\r\n<a href=\"contact.php3\">Contact us</a>\r\n<a href=\"advert.php3\">Advertising</a>\r\n<a
+        href=\"privacy.php3\">Privacy</a> \r\n<a href=\"terms.php3\">Terms of use</a>\r\n\t\t\t\r\n</p>\t\t\t\r\n<div
+        id=\"cdn-hosting\">\r\n<a href=\"http://www.maxcdn.com/\" target=\"_blank\"
+        rel=\"nofollow\">\r\n  <span class=\"center\">CDN by</span><br />\r\n  <img
+        src=\"http://cdn2.gsmarena.com/w/css/maxcdn.gif\" alt=\"\" />\r\n</a>\r\n</div>\r\n
+        \ </div>\r\n </div>\r\n \r\n \r\n\r\n</div>\r\n\r\n\r\n<script>\r\n\t(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n\t(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),\r\n\tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n\t})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n\tga('create',
+        'UA-131096-1', 'auto' );\r\n\tga('send', 'pageview'\r\n, { 'dimension2': '42'
+        }\r\n\t);\r\n\r\n</script>\r\n\r\n</body></html>"
+    http_version: 
+  recorded_at: Sun, 18 Sep 2016 15:37:38 GMT
+recorded_with: VCR 3.0.3

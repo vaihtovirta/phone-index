@@ -1,0 +1,524 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gsmarena.com/xiaomi_mi_5-6948.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Opera/9.80 (Windows NT 5.1; U; en) Presto/2.9.168 Version/11.51
+      Connection:
+      - close
+      Host:
+      - gsmarena.com
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Sun, 18 Sep 2016 15:33:36 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Location:
+      - http://www.gsmarena.com/xiaomi_mi_5-6948.php
+      Content-Length:
+      - '306'
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: ISO-8859-1
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>302 Found</title>
+        </head><body>
+        <h1>Found</h1>
+        <p>The document has moved <a href="http://www.gsmarena.com/xiaomi_mi_5-6948.php">here</a>.</p>
+        <hr>
+        <address>Apache/2.2.15 (CentOS) Server at gsmarena.com Port 80</address>
+        </body></html>
+    http_version: 
+  recorded_at: Sun, 18 Sep 2016 15:33:39 GMT
+- request:
+    method: get
+    uri: http://www.gsmarena.com/xiaomi_mi_5-6948.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Opera/9.80 (Windows NT 5.1; U; en) Presto/2.9.168 Version/11.51
+      Connection:
+      - close
+      Host:
+      - www.gsmarena.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 Sep 2016 15:33:37 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.5.38
+      Set-Cookie:
+      - sHistory=6948; expires=Tue, 18-Oct-2016 15:33:38 GMT; Max-Age=2592000
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: ISO-8859-1
+      string: "<!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\"
+        lang=\"en-US\">\r\n<head>\r\n<title>Xiaomi Mi 5 - Full phone specifications</title>\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/gsmarena.css?v=3\">\r\n<!--[if
+        lt IE 9]>\r\n<script src=\"http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js\"></script>\r\n<![endif]-->\r\n\r\n\r\n\r\n\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/specs.css?v=2\">\r\n<link
+        rel=\"stylesheet\" href=\"http://st.gsmarena.com/vv/assets8/css/comments-2.css\">\r\n\r\n<meta
+        http-equiv=Content-Type content=\"text/html; charset=iso-8859-1\">\r\n<meta
+        name=Description content=\"Xiaomi Mi 5 Android smartphone. Announced 2016,
+        February. Features 3G, 5.15&Prime; IPS LCD capacitive touchscreen, 16 MP camera,
+        Wi-Fi, GPS, Bluetooth.\">\r\n<meta name=keywords content=\"Xiaomi Mi 5,Xiaomi,Mi
+        5,GSM,mobile,phone,cellphone,information,info,specs,specification,opinion,review\">\r\n<link
+        rel=\"shortcut icon\" href=\"i/favicon.ico\" />\r\n<link rel=\"canonical\"
+        href=\"http://www.gsmarena.com/xiaomi_mi_5-6948.php\">\r\n\r\n\r\n</head>\r\n<body>\r\n\r\n<script
+        type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n\r\n<script
+        type=\"text/javascript\" src=\"http://st.gsmarena.com/vv/assets8/js/misc.js?v=2\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://st.gsmarena.com/vv/assets8/js/autocomplete.js?ver=3\"></script>\r\n<script
+        type=\"text/javascript\" language=\"javascript\">\r\nAUTOCOMPLETE_LIST_URL
+        = \"/quicksearch-8089.jpg\";\r\n$gsm.addEventListener(document, \"DOMContentLoaded\",
+        function() \r\n{\r\n    new Autocomplete( \"topsearch-text\", \"topsearch\",
+        true );\r\n}\r\n)\r\n</script>\r\n<script language='JavaScript' type='text/javascript'>\r\nfunction
+        phpads_deliverActiveX(content)\r\n{\r\n\tdocument.write(content);\t\r\n}\r\n</script>\r\n<header
+        id=\"header\" class=\"row\">\r\n<div class=\"wrapper clearfix\">\r\n<div class=\"top-bar
+        clearfix\">\r\n<!-- HAMBURGER MENU -->\r\n<button type=\"button\" role=\"button\"
+        aria-label=\"Toggle Navigation\" class=\"lines-button minus focused\">\r\n<span
+        class=\"lines\"></span>\r\n</button>\r\n<!-- /HAMBURGER MENU -->\r\n\r\n\r\n\r\n<!--
+        LOGO -->\r\n<div id=\"logo\">\r\n<a href=\"/\">\r\n\r\n<object type=\"image/svg+xml\"
+        data=\"http://st.gsmarena.com/vv/assets8/i/logo.svg\"><img src=\"http://st.gsmarena.com/vv/assets8/i/logo-fallback.gif\"
+        alt=\"GSMArena.com\"></object>\r\n<span>GSMArena.com</span></a>\r\n</div>\r\n\r\n\r\n\r\n<div
+        id=\"nav\" role=\"main\">\r\n<form action=\"results.php3\" method=\"get\"
+        id=\"topsearch\">\r\n    <input type=\"hidden\" name=\"sQuickSearch\" value=\"yes\">\r\n
+        \   <input type=\"text\" placeholder=\"Search\" tabindex=\"201\" accesskey=\"s\"
+        id=\"topsearch-text\" name=\"sName\" autocomplete=\"off\" />\r\n    <span
+        id=\"quick-search-button\">\r\n      <input type=\"submit\" value=\"Go\" />\r\n
+        \     <i class=\"head-icon icomoon-liga icon-search-left\"></i>\r\n    </span>\r\n
+        \   \r\n\r\n</form>\r\n</div>\r\n\r\n\r\n<div id=\"social-connect\">\r\n<a
+        href=\"tipus.php3\" class=\"tip-icon\">\r\n  <i class=\"head-icon icon-tip-us
+        icomoon-liga\"></i><br><span class=\"icon-count\">Tip us</span>\r\n</a>\r\n<a
+        href=\"https://www.facebook.com/GSMArenacom-189627474421/\" class=\"fb-icon\"
+        target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-fb2 icomoon-liga\"></i><br><span
+        class=\"icon-count\">848k</span>\r\n</a>\r\n<a href=\"http://twitter.com/gsmarena_com\"
+        class=\"tw-icon\" target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-twitter2
+        icomoon-liga\"></i><br><span class=\"icon-count\">113k</span>\r\n</a>\r\n\r\n<a
+        href=\"https://plus.google.com/116083888509266864115?prsrc=3\" class=\"gp-icon\"
+        target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-gplus icomoon-liga\"></i>\r\n
+        \ <span class=\"icon-count\">86k</span>\r\n</a>\r\n<a href=\"http://youtube.com/user/gsmarena07\"
+        class=\"yt-icon\" target=\"_blank\">\r\n  <i class=\"head-icon icon-soc-youtube
+        icomoon-liga\"></i><br><span class=\"icon-count\">164k</span>\r\n</a>\r\n<a
+        href=\"rss-news-reviews.php3\" class=\"rss-icon\">\r\n  <i class=\"head-icon
+        icon-soc-rss2 icomoon-liga\"></i><br><span class=\"icon-count\">RSS</span>\r\n</a>\r\n\r\n\r\n\r\n\r\n\t<a
+        href=\"#\" onclick=\"return false;\" class=\"login-icon\" id=\"login-active\">\r\n\t
+        \ <i class=\"head-icon icon-login\"></i><br><span class=\"icon-count\" style=\"right:4px;\">Log
+        in</span>\r\n\t</a>\r\n\r\n\t<span class=\"tooltip\" id=\"login-popup\">\r\n\t
+        \  <p>\r\n\t     Login with<br />\r\n\t     <a href=\"login-facebook.php3?rdr=MGd2fnBydkBydkAqMikmKycxb3dv\"><i
+        class=\"head-icon icon-soc-fb2\"></i>Facebook</a>\r\n\t     <a class=\"g-login\"
+        href=\"login-google.php3?rdr=MGd2fnBydkBydkAqMikmKycxb3dv\"><i class=\"head-icon
+        icon-soc-gplus\"></i>Google</a>\r\n\t   </p>\r\n\t</span>\r\n <a href=\"nickname.php3?sSource=MGd2fnBydkBydkAqMikmKycxb3dv\"
+        class=\"signup-icon no-margin-right\"><i class=\"head-icon icon-user-plus\"></i><span
+        class=\"icon-count\">Sign up</span></a>  \r\n              </div>  \r\n           </div>
+        \                \r\n<ul id=\"menu\" class=\"main-menu-list\">\r\n<li><a href=\"/\">Home</a></li>\r\n\t<li><a
+        href=\"news.php3\">News</a></li>\r\n\t<li><a href=\"reviews.php3\">Reviews</a></li>\r\n\t<li><a
+        href=\"blog.php3\">Blog</a></li>\r\n\t<li><a href=\"compare.php3\">Compare</a></li>\r\n\t<li><a
+        href=\"tools.php3\">Tools</a></li>\r\n\t<li><a href=\"glossary.php3\">Glossary</a></li>\r\n\t<li><a
+        href=\"network-bands.php3\">Coverage</a></li>\r\n\t<li><a href=\"faq.php3\">FAQ</a></li>\r\n\t<li><a
+        href=\"contact.php3\">Contact</a></li>   \r\n                  \r\n      </ul>\r\n
+        \     <!-- SOCIAL CONNECT -->\r\n    </div>\r\n    \r\n\r\n</header> <!---
+        HEADER END -->\r\n\r\n\r\n\t\t\r\n<script type=\"text/javascript\" src=\"http://st.gsmarena.com/vv/assets8/js/specs.js?v=2\"></script>\r\n<script
+        type=\"text/javascript\" language=\"javascript\">\r\nHISTORY_ITEM_ID = \"6948\";\r\nHISTORY_ITEM_NAME
+        = \"Xiaomi Mi 5\";\r\nHISTORY_ITEM_URL = \"xiaomi_mi_5-6948.php\";\r\nHISTORY_ITEM_IMAGE
+        = \"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg\";\r\n\r\n</script>\r\n<div
+        id=\"wrapper\" class=\"l-container\">\r\n<div id=\"outer\" class=\"row\">\r\n\r\n\r\n<div
+        id=\"subHeader\" class=\"col\">\r\n<div id=\"topPromo\">\t\t\r\n\t\t<div class=\"alt-display
+        is-review\" style=\"background-image: url(http://cdn.gsmarena.com/imgroot/reviews/16/sony-xperia-xa-ultra/review/thumb/-347x151/gsmarena_002.jpg)\">\r\n\t\t
+        \ <a class=\"table-cell reviews-xl-snazzy\" href=\"sony_xperia_xa_ultra-review-1465.php\">\r\n\t\t\t
+        \ <div class=\"module-review-xl-title\">\r\n\t\t\t \r\n\t\t\t    \t<span>Lord
+        of the selfies</span><br>\r\n\t\t\t    \t<strong>Sony Xperia XA Ultra review</strong>\r\n\t\t\t
+        \  \r\n\t\t\t  \r\n\t\t \t  </div>\r\n\t\t </a>\r\n\t  </div>\r\n</div><div
+        id=\"topAdv\" class=\"l-box\">\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
+        \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
+        = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
+        \  \r\n   document.write (\"<\" + \"script language='JavaScript' type='text/javascript'
+        src='\");\r\n   document.write (\"http://a.gsmarena.com/adjs.php?n=\" + phpAds_random);\r\n
+        \  document.write (\"&amp;what=zone:5&amp;target=_blank\");\r\n   document.write
+        (\"&amp;exclude=\" + document.phpAds_used);\r\n   if (document.referrer)\r\n
+        \     document.write (\"&amp;referer=\" + escape(document.referrer));\r\n
+        \  document.write (\"'><\" + \"/script>\");\r\n//-->\r\n</script><noscript><a
+        href='http://a.gsmarena.com/adclick.php?n=afad88d6' target='_blank'><img src='http://a.gsmarena.com/adview.php?what=zone:5&amp;n=afad88d6'
+        border='0' alt=''></a></noscript>\r\n</div>   \r\n</div>\r\n\r\n\r\n<div id=\"body\">\r\n\r\n<div
+        class=\"main main-review right l-box col\">  \r\n\r\n<div class=\"review-header
+        hreview\">  \r\n    <div class=\"article-info\">\r\n<style type=\"text/css\">\r\n
+        \   .review-header::after {\r\n\tbackground-image:url( http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg
+        );\r\n\tbackground-size: 285%;\r\n\tbackground-position: -866px -1092px;\r\n
+        \   }\r\n</style>\r\n\r\n\r\n        <div class=\"article-info-line page-specs
+        light border-bottom\">\r\n            <div class=\"blur review-background\"></div>\r\n
+        \           <h1 class=\"specs-phone-name-title\">Xiaomi Mi 5</h1>\r\n\r\n\r\n\r\n<script>\r\n\tvar
+        sURLSocialE = \"http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\";\r\n</script>\r\n\r\n\r\n<ul
+        class=\"social-share sharrre\">\r\n<li class=\"help help-social\">\r\n  <a
+        class=\"box btnFb\" title=\"Facebook\" id=\"facebook\" href=\"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\"
+        target=\"_blank\" onclick=\"window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php','fbookshare','width=500,height=400,left='+(screen.availWidth/2-225)+',top='+(screen.availHeight/2-150)+'');return
+        false;\">\r\n    \r\n    <div class=\"share\">\r\n      <span class=\"count
+        fbCount\" href=\"#\">-</span>\r\n      <i class=\"head-icon icon-soc-fb2\"></i>\r\n
+        \   </div>\r\n  </a>\r\n</li>\r\n<li>\r\n  <a class=\"box btnTw\" title=\"Twitter\"
+        id=\"twitter\" href=\"https://twitter.com/intent/tweet?text=Xiaomi+Mi+5&url=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\"
+        target=\"_blank\" onclick=\"window.open('https://twitter.com/intent/tweet?text=Xiaomi+Mi+5&url=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php','twitshare','width=500,height=400,left='+(screen.availWidth/2-225)+',top='+(screen.availHeight/2-150)+'');return
+        false;\">\r\n    <div class=\"share\">\r\n      <span class=\"count twCount\"
+        href=\"#\">-</span>\r\n      <i class=\"head-icon icon-soc-twitter2\"></i></div>\r\n
+        \ </a>\r\n</li>\r\n<li>\r\n  <a class=\"box btnGo\" title=\"Google+\" id=\"googleplus\"
+        href=\"https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\"
+        target=\"_blank\" onclick=\"window.open('https://plus.google.com/share?url=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php','gplusshare','width=500,height=400,left='+(screen.availWidth/2-225)+',top='+(screen.availHeight/2-150)+'');return
+        false;\">\r\n    \r\n    <div class=\"share\">\r\n      <span class=\"count
+        goCount\" href=\"#\">-</span>\r\n      <i class=\"head-icon icon-soc-gplus\"></i>\r\n
+        \   </div>\r\n  </a>\r\n</li>\r\n</ul>             \r\n\r\n\r\n        </div>\r\n\r\n\r\n\r\n\r\n
+        \       \r\n\r\n<div class=\"center-stage light nobg specs-accent\">\r\n  <div
+        class=\"specs-photo-main\">\r\n<a href=xiaomi_mi_5-pictures-6948.php><img
+        alt=\"Xiaomi Mi 5\nMORE PICTURES\" src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg></a>
+        \     \r\n  </div>\r\n  <ul class=\"specs-spotlight-features\" style=\"overflow:hidden;\">\r\n
+        \   <li class=\"specs-brief pattern\">\r\n      <span class=\"specs-brief-accent\"><i
+        class=\"head-icon icon-launched\"></i>Released 2016, April</span><br>\r\n
+        \     <span class=\"specs-brief-accent\"><i class=\"head-icon icon-mobile2\"></i>129g
+        / 139g, 7.3mm thickness</span><br>\r\n      <span class=\"specs-brief-accent\"><i
+        class=\"head-icon icon-os\"></i>Android OS, v6.0</span><br>\r\n      <span
+        class=\"specs-brief-accent\"><i class=\"head-icon icon-sd-card-0\"></i>128GB
+        storage, no card slot</span>  \r\n      \r\n      <span class=\"help help-quickfacts\"></span>\r\n
+        \   </li>\r\n    \r\n    <li class=\"light pattern help help-popularity\">\r\n
+        \    \r\n      <strong class=\"accent\"> <i class=\"head-icon icon-popularity\"></i>19%</strong>\r\n
+        \     <span>15,852,049 hits</span></li>\r\n    <li class=\"light pattern help
+        help-fans\">\r\n      <a class=\"specs-fans\" href=\"\">\r\n        <strong
+        class=\"accent\"><i class=\"head-icon icon-fans\"></i>1322</strong>\r\n        <span>Become
+        a fan</span>\r\n      </a>\r\n    </li>\r\n    <li class=\"help accented help-display\">\r\n
+        \     <i class=\"head-icon icon-touch-1\"></i>\r\n      <strong class=\"accent\">5.15\"</strong>1080x1920
+        pixels    </li>\r\n    <li class=\"help accented help-camera\">\r\n      <i
+        class=\"head-icon icon-camera-1\"></i>\r\n      <strong class=\"accent accent-camera\">16<span>MP</span>\r\n
+        \     </strong> 2160p</li>\r\n    <li class=\"help accented help-expansion\">\r\n
+        \     <i class=\"head-icon icon-cpu\"></i>\r\n      <strong class=\"accent
+        accent-expansion\">4<span>GB RAM</span></strong> \r\n      Snapdragon 820</li>\r\n\r\n\r\n
+        \   <li class=\"help accented help-battery\">\r\n    <i class=\"head-icon
+        icon-battery-1\"></i>\r\n    \r\n    <strong class=\"accent accent-battery\">3000<span>mAh</span></strong>Li-Po</li>\r\n
+        \   \r\n  </ul>\r\n</div>\r\n\r\n<div class=\"article-info-line page-specs
+        light\">\r\n\r\n<ul class=\"article-info-meta\">\r\n\r\n<li class=\"article-info-meta-link
+        article-info-meta-link-review light large help help-review has-short\"><a
+        href=\"xiaomi_mi_5-review-1411.php\"><i class=\"head-icon icon-review\"></i>Review</a><a
+        href=\"xiaomi_mi_5_time_saver-review-1423.php\" class=\"help help-small-review\"><i
+        class=\"head-icon icon-stopwatch\" title=\"Short review\"></i></a></li><li
+        class=\"article-info-meta-link light\"><a href=xiaomi_mi_5-3d-spin-6948.php><i
+        class=\"head-icon icon-360-view\"></i>360&deg; view</a></li>\r\n\r\n<li class=\"article-info-meta-link
+        light\"><a href=xiaomi_mi_5-pictures-6948.php><i class=\"head-icon icon-pictures\"></i>Pictures</a></li>\r\n<li
+        class=\"article-info-meta-link light\"><a href=compare.php3?idPhone1=6948><i
+        class=\"head-icon icon-mobile-phone231\"></i>Compare</a></li>\r\n<li class=\"article-info-meta-link
+        light\" title=\"Xiaomi Mi 5 user reviews and opinions\"><a href=\"xiaomi_mi_5-reviews-6948.php\"><i
+        class=\"head-icon icon-comment-count\"></i>Opinions</a></li>\r\n\r\n\r\n<br
+        style=\"clear:both;\" />\r\n</ul>\r\n</div>\r\n\r\n</div> \t\t\t\r\n</div>\r\n\r\n\r\n<script
+        language=\"JavaScript\">\r\n<!--\r\nfunction helpW( strURL )\r\n{\r\nwindow.open(
+        'help.php3?term=' + strURL, '_blank', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=420,height=390'
+        );\r\n}\r\n//-->\r\n</script>\r\n\r\n<div id=\"specs-list\">\r\n\t\t\t\t\t\r\n<style
+        type=\"text/css\"> .tr-toggle {  display:none; }  </style>\r\n\r\n\r\n<table
+        cellspacing=\"0\" style=\"height: 24px;\">\r\n<tr class=\"tr-hover\">\r\n<th
+        rowspan=\"15\" scope=\"row\">Network</th>\r\n<td class=\"ttl\"><a href=\"network-bands.php3\">Technology</a></td>\r\n<td
+        class=\"nfo\"><a href=\"#\" class=\"link-network-detail collapse\">GSM / CDMA
+        / HSPA / EVDO / LTE</a></td>\r\n</tr>\r\n<tr class=\"tr-toggle\">\r\n<td class=\"ttl\"><a
+        href=\"network-bands.php3\">2G bands</a></td>\r\n<td class=\"nfo\">GSM 850
+        / 900 / 1800 / 1900 - SIM 1 & SIM 2</td>\r\n</tr><tr class=\"tr-toggle\">\r\n<td
+        class=\"ttl\">&nbsp;</td>\r\n<td class=\"nfo\">CDMA 800 / 1900 </td>\r\n</tr>\r\n<tr
+        class=\"tr-toggle\">\r\n<td class=\"ttl\"><a href=\"network-bands.php3\">3G
+        bands</a></td>\r\n<td class=\"nfo\">HSDPA 850 / 900 / 1900 / 2100 </td>\r\n</tr>\r\n<tr
+        class=\"tr-toggle\">\r\n<td class=\"ttl\">&nbsp;</td>\r\n<td class=\"nfo\">CDMA2000
+        1xEV-DO & TD-SCDMA</td>\r\n</tr>\r\n<tr class=\"tr-toggle\">\r\n<td class=\"ttl\"><a
+        href=\"network-bands.php3\">4G bands</a></td>\r\n<td class=\"nfo\">LTE band
+        1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500)</td>\r\n</tr>\r\n<tr
+        class=\"tr-toggle\">\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=3g\">Speed</a></td>\r\n<td
+        class=\"nfo\">HSPA 42.2/5.76 Mbps, LTE Cat12 600/150 Mbps</td>\r\n</tr>\r\n\t\r\n<tr
+        class=\"tr-toggle\">\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=gprs\">GPRS</a></td>\r\n<td
+        class=\"nfo\">Yes</td>\r\n</tr>\t\r\n<tr class=\"tr-toggle\">\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=edge\">EDGE</a></td>\r\n<td class=\"nfo\">Yes</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"2\" scope=\"row\">Launch</th>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_year.htm');\">Announced</a></td>\r\n<td
+        class=\"nfo\">2016, February</td>\r\n</tr>\t\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=# onClick=\"helpW('h_status.htm');\">Status</a></td>\r\n<td class=\"nfo\">Available.
+        Released 2016, April</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table cellspacing=\"0\">\r\n<tr>\r\n<th
+        rowspan=\"6\" scope=\"row\">Body</th>\r\n<td class=\"ttl\"><a href=# onClick=\"helpW('h_dimens.htm');\">Dimensions</a></td>\r\n<td
+        class=\"nfo\">144.6 x 69.2 x 7.3 mm (5.69 x 2.72 x 0.29 in)</td>\r\n</tr><tr>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_weight.htm');\">Weight</a></td>\r\n<td
+        class=\"nfo\">129 g / 139 g (4.90 oz)</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=build\">Build</a></td>\r\n<td class=\"nfo\">Corning
+        Gorilla Glass 4 back panel</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=sim\">SIM</a></td>\r\n<td
+        class=\"nfo\">Dual SIM (Nano-SIM, dual stand-by)</td>\r\n</tr>\r\n\t\t\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"6\" scope=\"row\">Display</th>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=display-type\">Type</a></td>\r\n<td
+        class=\"nfo\">IPS LCD capacitive touchscreen, 16M colors</td>\r\n</tr>\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_dsize.htm');\">Size</a></td>\r\n<td
+        class=\"nfo\">5.15 inches (~73.1% screen-to-body ratio)</td>\r\n</tr>\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_dres.htm');\">Resolution</a></td>\r\n<td
+        class=\"nfo\">1080 x 1920 pixels (~428 ppi pixel density)</td>\r\n</tr>\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=multitouch\">Multitouch</a></td>\r\n<td
+        class=\"nfo\">Yes</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=screen-protection\">Protection</a></td>\r\n<td
+        class=\"nfo\">Corning Gorilla Glass 4</td>\r\n</tr>\r\n<tr><td class=\"ttl\">&nbsp;</td><td
+        class=\"nfo\">- MIUI 7.0</td></tr>\r\n\t\t\r\n</table>\r\n\r\n\r\n<table cellspacing=\"0\">\r\n<tr>\r\n<th
+        rowspan=\"4\" scope=\"row\">Platform</th>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=os\">OS</a></td>\r\n<td
+        class=\"nfo\">Android OS, v6.0 (Marshmallow)</td>\r\n</tr>\r\n<tr><td class=\"ttl\"><a
+        href=\"glossary.php3?term=chipset\">Chipset</a></td>\r\n<td class=\"nfo\">Qualcomm
+        MSM8996 Snapdragon 820</td>\r\n</tr>\r\n<tr><td class=\"ttl\"><a href=\"glossary.php3?term=cpu\">CPU</a></td>\r\n<td
+        class=\"nfo\">Quad-core (2x1.8 GHz Kryo & 2x1.36 GHz Kryo) - Standard edition<br>Quad-core
+        (2x2.15 GHz Kryo & 2x1.6 GHz Kryo) - Prime & Pro edition</td>\r\n</tr>\r\n<tr><td
+        class=\"ttl\"><a href=\"glossary.php3?term=gpu\">GPU</a></td>\r\n<td class=\"nfo\">Adreno
+        530</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table cellspacing=\"0\">\r\n<tr>\r\n<th
+        rowspan=\"5\" scope=\"row\">Memory</th>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=memory-card-slot\">Card
+        slot</a></td>\r\n\r\n\r\n<td class=\"nfo\">No</td></tr>\r\n\r\n\t\r\n\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=dynamic-memory\">Internal</a></td>\r\n<td
+        class=\"nfo\">128 GB, 4 GB RAM - Pro edition<br>64 GB, 3 GB RAM - Prime edition<br>32
+        GB, 3 GB RAM - Standard</td>\r\n</tr>\r\n\t\r\n\r\n\t\t\t\r\n</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"4\" scope=\"row\">Camera</th>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=camera\">Primary</a></td>\r\n<td
+        class=\"nfo\">16 MP, f/2.0, phase detection autofocus, OIS (4-axis), dual-LED
+        (dual tone) flash, <a href=\"piccmp.php3?idType=1&idPhone1=6948&nSuggest=1\">check
+        quality</a></td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=camera\">Features</a></td>\r\n<td
+        class=\"nfo\">1/2.8\" sensor size, 1.12 µm pixel size, geo-tagging, touch
+        focus, face/smile detection, panorama, HDR</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=camera\">Video</a></td>\r\n<td class=\"nfo\">2160p@30fps,
+        1080p@30fps, 720p@120fps, <a href=\"vidcmp.php3?idType=3&idPhone1=6948&nSuggest=1\">check
+        quality</a></td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=video-call\">Secondary</a></td>\r\n<td
+        class=\"nfo\">4 MP, f/2.0, 1/3\" sensor size, 2µm pixel size, 1080p@30fps</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"4\" scope=\"row\">Sound</th>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=call-alerts\">Alert types</a></td>\r\n<td
+        class=\"nfo\">Vibration; MP3, WAV ringtones</td>\r\n\t</tr>\r\n\t\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=loudspeaker\">Loudspeaker</a> </td>\r\n<td
+        class=\"nfo\">Yes</td>\r\n</tr>\r\n\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=audio-jack\">3.5mm
+        jack</a> </td>\r\n<td class=\"nfo\">Yes</td>\r\n</tr>\r\n\t\r\n\r\n<tr><td
+        class=\"ttl\">&nbsp;</td><td class=\"nfo\">- Active noise cancellation with
+        dedicated mic</td></tr>\r\n\t\r\n</table>\r\n\r\n\r\n<table cellspacing=\"0\">\r\n<tr>\r\n<th
+        rowspan=\"9\" scope=\"row\">Comms</th>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=wi-fi\">WLAN</a></td>\r\n<td
+        class=\"nfo\">Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot</td>\r\n</tr>\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=bluetooth\">Bluetooth</a></td>\r\n<td
+        class=\"nfo\">v4.2, A2DP, LE</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=gps\">GPS</a></td>\r\n<td class=\"nfo\">Yes, with
+        A-GPS, GLONASS, BDS</td>\r\n</tr>  \r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=nfc\">NFC</a></td>\r\n<td
+        class=\"nfo\">Yes</td>\r\n</tr>\r\n\t\r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=irda\">Infrared
+        port</a></td>\r\n<td class=\"nfo\">Yes</td>\r\n</tr>\r\n\t\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=fm-radio\">Radio</a></td>\r\n<td
+        class=\"nfo\">No</td>\r\n</tr>\r\n   \r\n<tr>\r\n<td class=\"ttl\"><a href=\"glossary.php3?term=usb\">USB</a></td>\r\n<td
+        class=\"nfo\">Type-C 1.0 reversible connector</td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"12\" scope=\"row\">Features</th>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=sensors\">Sensors</a></td>\r\n<td
+        class=\"nfo\">Fingerprint, accelerometer, gyro, proximity, compass, barometer</td>\r\n</tr><tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=messaging\">Messaging</a></td>\r\n<td
+        class=\"nfo\">SMS(threaded view), MMS, Email, Push Mail, IM</td>\r\n</tr><tr>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=browser\">Browser</a></td>\r\n<td
+        class=\"nfo\">HTML5</td>\r\n</tr> \t\r\n\r\n \t\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=java\">Java</a></td>\r\n<td class=\"nfo\">No</td>\r\n</tr>\r\n<tr><td
+        class=\"ttl\">&nbsp;</td><td class=\"nfo\">- Fast battery charging: 83% in
+        30 min (Quick Charge 3.0)<br />\r\n- MP4/DivX/XviD/WMV/H.265 player<br />\r\n-
+        MP3/WAV/eAAC+/FLAC player<br />\r\n- Photo/video editor<br />\r\n- Document
+        viewer</td></tr>\r\n\t\r\n</table>\r\n\r\n\r\n<table cellspacing=\"0\">\r\n<tr>\r\n<th
+        rowspan=\"7\" scope=\"row\">Battery</th>\r\n<td class=\"ttl\">&nbsp;</td>\r\n<td
+        class=\"nfo\">Non-removable Li-Po 3000 mAh battery</td>\r\n</tr>\r\n\r\n\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"5\" scope=\"row\">Misc</th>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_colors.htm');\">Colors</a></td>\r\n<td
+        class=\"nfo\">Black, White, Gold, Ceramic</td>\r\n</tr>\r\n<tr>\r\n<td class=\"ttl\"><a
+        href=\"glossary.php3?term=sar\">SAR US</a></td>\r\n<td class=\"nfo\">\r\n0.70
+        W/kg (head) &nbsp; &nbsp; 1.42 W/kg (body) &nbsp; &nbsp; </td>\r\n</tr>\r\n\r\n\r\n<tr>\r\n<td
+        class=\"ttl\"><a href=# onClick=\"helpW('h_price.htm');\">Price group</a></td>\r\n<td
+        class=\"nfo\"><a href=\"#\">7/10</a> <span class=\"price\">(About 380 EUR)</span></td>\r\n</tr>\r\n</table>\r\n\r\n\r\n<table
+        cellspacing=\"0\">\r\n<tr>\r\n<th rowspan=\"6\" scope=\"row\">Tests</th>\r\n<td
+        class=\"ttl\"><a href=\"glossary.php3?term=benchmarking\">Performance</a></td>\r\n<td
+        class=\"nfo\">\r\n<a class=\"noUnd\" href=\"benchmark-test.php3?idPhone=6948#show\">Basemark
+        OS II: 2444 / Basemark OS II 2.0: 2180<br>Basemark X: 33110</a></td>\r\n</tr><tr>\r\n\r\n<td
+        class=\"ttl\"><a href=\"gsmarena_lab_tests-review-751p2.php\">Display</a></td>\r\n<td
+        class=\"nfo\">\r\n<a class=\"noUnd\" href=\"http://www.gsmarena.com/xiaomi_mi_5-review-1411p3.php#dt\">Contrast
+        ratio: 1227:1 (nominal), 3.240 (sunlight)</a></td>\r\n</tr><tr>\r\n\r\n<td
+        class=\"ttl\"><a href=\"gsmarena_lab_tests-review-751p5.php\">Camera</a></td>\r\n<td
+        class=\"nfo\">\r\n<a class=\"noUnd\" href=\"piccmp.php3?idType=1&idPhone1=6948&nSuggest=1\">Photo</a>
+        / <a class=\"noUnd\" href=\"vidcmp.php3?idType=3&idPhone1=6948&nSuggest=1\">Video</a></td>\r\n</tr><tr>\r\n\r\n<td
+        class=\"ttl\"><a href=\"gsmarena_lab_tests-review-751p3.php\">Loudspeaker</a></td>\r\n<td
+        class=\"nfo\">\r\n<a class=\"noUnd\" href=\"http://www.gsmarena.com/xiaomi_mi_5-review-1411p6.php#lt\">Voice
+        67dB / Noise 67dB / Ring 74dB</a>\r\n\r\n</td>\r\n</tr><tr>\r\n\r\n<td class=\"ttl\"><a
+        href=\"gsmarena_lab_tests-review-751p4.php\">Audio quality</a></td>\r\n<td
+        class=\"nfo\">\r\n<a class=\"noUnd\" href=\"http://www.gsmarena.com/xiaomi_mi_5-review-1411p6.php#aq\">Noise
+        -95.3dB / Crosstalk -95.4dB</a></td>\r\n</tr><tr>\r\n\r\n\r\n<td class=\"ttl\"><a
+        href=\"gsmarena_lab_tests-review-751p6.php\">Battery life</a></td>\r\n<td
+        class=\"nfo\">\r\n<div style=\"position:relative;\">\r\n<a href=\"#\" onclick=\"showBatteryPopup(event,
+        6948); \">Endurance rating 92h</a><div class=\"popover top\" id=\"battery-popover\"
+        style=\"display: none;\"></div>\r\n</div>\r\n</td>\r\n</tr><tr>\r\n\r\n</tr></table>\r\n\r\n\r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n<p
+        class=\"note\"><strong>Disclaimer.</strong> We can not guarantee that the
+        information on this page is 100% correct. <a href=# onClick=\"helpW('legal.htm');\">Read
+        more</a></p>\r\n\r\n\r\n<div class=\"article-info-line page-specs light\">\r\n\r\n<ul
+        class=\"article-info-meta\">\r\n\r\n<li class=\"article-info-meta-link article-info-meta-link-review
+        light large help help-review has-short\"><a href=\"xiaomi_mi_5-review-1411.php\"><i
+        class=\"head-icon icon-review\"></i>Review</a><a href=\"xiaomi_mi_5_time_saver-review-1423.php\"
+        class=\"help help-small-review\"><i class=\"head-icon icon-stopwatch\" title=\"Short
+        review\"></i></a></li><li class=\"article-info-meta-link light\"><a href=xiaomi_mi_5-3d-spin-6948.php><i
+        class=\"head-icon icon-360-view\"></i>360&deg; view</a></li>\r\n\r\n<li class=\"article-info-meta-link
+        light\"><a href=xiaomi_mi_5-pictures-6948.php><i class=\"head-icon icon-pictures\"></i>Pictures</a></li>\r\n<li
+        class=\"article-info-meta-link light\"><a href=compare.php3?idPhone1=6948><i
+        class=\"head-icon icon-mobile-phone231\"></i>Compare</a></li>\r\n<li class=\"article-info-meta-link
+        light\" title=\"Xiaomi Mi 5 user reviews and opinions\"><a href=\"xiaomi_mi_5-reviews-6948.php\"><i
+        class=\"head-icon icon-comment-count\"></i>Opinions</a></li>\r\n\r\n\r\n<br
+        style=\"clear:both;\" />\r\n</ul>\r\n</div>\r\n\r\n\r\n\t\t\t\t\t\r\n<div
+        id=\"user-comments\" class=\"box s3 nobg\">\r\n<h2><a href=\"xiaomi_mi_5-reviews-6948.php\">Xiaomi
+        Mi 5 - user opinions and reviews</a></h2>\r\n\t\t\t\t\t\t\r\n<div class=\"user-thread\">\r\n<div
+        class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul class=\"uinfo2\">\r\n<li
+        class=\"uname2\">choose1998</li>\r\n<li class=\"ulocation\">\r\n<i class=\"head-icon
+        icon-location\"></i>\r\n<span title=\"Encoded location\">9B21</span></li>\r\n<li
+        class=\"upost\"><time>28 minutes ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">i
+        just know it will come in end of septemper in china.</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li
+        class=\"ureply\">\r\n<span title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5362303\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
+        class=\"user-thread\">\r\n<div class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul
+        class=\"uinfo2\">\r\n<li class=\"uname2\">Abhishek Kumar</li>\r\n<li class=\"ulocation\">\r\n<i
+        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">gNRC</span></li>\r\n<li
+        class=\"upost\"><time>2 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">I
+        am using this phone by last 15 days,all things are good accept it's battery
+        nd screen.its battery last for only 10 hours once you charge for full nd in
+        sunlight screen is pathetic. \r\nGo for Asus genuine 3 or apple iphone 5S</p>\r\n\r\n<ul
+        class=\"uinfo\">\r\n<li class=\"ureply\">\r\n<span title=\"Reply to this post\">\r\n<a
+        href=\"postopinion.php3?idPhone=6948&idOpinion=5362197\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
+        class=\"user-thread\">\r\n<div class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul
+        class=\"uinfo2\">\r\n<li class=\"uname2\">choose1998</li>\r\n<li class=\"ulocation\">\r\n<i
+        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">9y86</span></li>\r\n<li
+        class=\"upost\"><time>7 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">i
+        like xiaomi 5.its very fast.</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li class=\"ureply\">\r\n<span
+        title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5361803\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\r\n<div
+        class=\"sub-footer\">\r\n<div class=\"button-links\">\r\n<ul>\r\n\t\t\t\t\t\t\t\t\r\n<li><a
+        class=\"button\" href=\"xiaomi_mi_5-reviews-6948.php\">Read all opinions</a></li>\r\n<li><a
+        class=\"button\" href=\"postopinion.php3?idPhone=6948\">Post your opinion</a></li>\r\n</ul>\r\n\r\n</div>\r\n<div
+        id=\"opinions-total\">Total user opinions: <b>2740</b></div>\r\n<br class=\"clear\"
+        />\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\r\n\r\n</div>\r\n</div>\r\n\r\n<aside
+        class=\"sidebar col left\">\r\n\r\n<div class=\"brandmenu-v2 light l-box clearfix\">\r\n<p
+        class=\"pad\">\r\n<a href=\"search.php3\" class=\"pad-single pad-finder\">\r\n<i
+        class=\"head-icon icon-search-right\"></i>\r\n<span>Phone finder</span></a>\r\n</p>\r\n<ul>\r\n<li><a
+        href=\"samsung-phones-9.php\">Samsung</a></li><li><a href=\"apple-phones-48.php\">Apple</a></li><li><a
+        href=\"microsoft-phones-64.php\">Microsoft</a></li><li><a href=\"nokia-phones-1.php\">Nokia</a></li><li><a
+        href=\"sony-phones-7.php\">Sony</a></li><li><a href=\"lg-phones-20.php\">LG</a></li><li><a
+        href=\"htc-phones-45.php\">HTC</a></li><li><a href=\"motorola-phones-4.php\">Motorola</a></li><li><a
+        href=\"huawei-phones-58.php\">Huawei</a></li><li><a href=\"lenovo-phones-73.php\">Lenovo</a></li><li><a
+        href=\"xiaomi-phones-80.php\">Xiaomi</a></li><li><a href=\"acer-phones-59.php\">Acer</a></li><li><a
+        href=\"asus-phones-46.php\">Asus</a></li><li><a href=\"oppo-phones-82.php\">Oppo</a></li><li><a
+        href=\"oneplus-phones-95.php\">OnePlus</a></li><li><a href=\"meizu-phones-74.php\">Meizu</a></li><li><a
+        href=\"blackberry-phones-36.php\">BlackBerry</a></li><li><a href=\"alcatel-phones-5.php\">Alcatel</a></li><li><a
+        href=\"zte-phones-62.php\">ZTE</a></li><li><a href=\"toshiba-phones-44.php\">Toshiba</a></li><li><a
+        href=\"vodafone-phones-53.php\">Vodafone</a></li><li><a href=\"gigabyte-phones-47.php\">Gigabyte</a></li><li><a
+        href=\"pantech-phones-32.php\">Pantech</a></li><li><a href=\"xolo-phones-85.php\">XOLO</a></li><li><a
+        href=\"lava-phones-94.php\">Lava</a></li><li><a href=\"micromax-phones-66.php\">Micromax</a></li><li><a
+        href=\"blu-phones-67.php\">BLU</a></li><li><a href=\"gionee-phones-92.php\">Gionee</a></li><li><a
+        href=\"vivo-phones-98.php\">vivo</a></li><li><a href=\"yu-phones-100.php\">YU</a></li><li><a
+        href=\"verykool-phones-70.php\">verykool</a></li><li><a href=\"maxwest-phones-87.php\">Maxwest</a></li><li><a
+        href=\"niu-phones-79.php\">NIU</a></li><li><a href=\"yezz-phones-78.php\">Yezz</a></li><li><a
+        href=\"parla-phones-81.php\">Parla</a></li><li><a href=\"plum-phones-72.php\">Plum</a></li></ul>\r\n\r\n<p
+        class=\"pad\">\r\n<a href=\"makers.php3\" class=\"pad-multiple pad-allbrands\">\r\n
+        \ <i class=\"head-icon icon-mobile-phone231\"></i>\r\n  <span>All brands</span>\r\n</a>\r\n<a
+        href=\"rumored.php3\" class=\"pad-multiple pad-rumormill\">\r\n  <i class=\"head-icon
+        icon-rumored\"></i>\r\n  <span>Rumor mill</span>\r\n</a>\r\n</p>\r\n</div>\r\n<div
+        class=\"adv banner-mpu\">\r\n\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
+        \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
+        = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
+        \  \r\n   document.write (\"<\" + \"script language='JavaScript' type='text/javascript'
+        src='\");\r\n   document.write (\"http://a.gsmarena.com/adjs.php?n=\" + phpAds_random);\r\n
+        \  document.write (\"&amp;what=zone:156&amp;target=_blank\");\r\n   document.write
+        (\"&amp;exclude=\" + document.phpAds_used);\r\n   if (document.referrer)\r\n
+        \     document.write (\"&amp;referer=\" + escape(document.referrer));\r\n
+        \  document.write (\"'><\" + \"/script>\");\r\n//-->\r\n</script><noscript><a
+        href='http://a.gsmarena.com/adclick.php?n=afad88d6' target='_blank'><img src='http://a.gsmarena.com/adview.php?what=zone:5&amp;n=afad88d6'
+        border='0' alt=''></a></noscript>\r\n</div>\r\n\r\n\r\n<div class=\"module
+        module-phones module-more-promo\">\r\n<h4 class=\"section-heading\">More</h4>\r\n<ul>\r\n\t\r\n\r\n\t\r\n<li
+        class=\"in-the-news-list\"><strong><a href=\"news.php3?idPhoneSearch=6948\">In
+        the news</a></strong></li>\r\n\t\r\n\r\n\t\r\n\r\n\r\n</ul>\r\n</div>\r\n\r\n\t
+        \ \r\n\r\n<style type=\"text/css\">\r\n.checkprice-list::before {\r\n    background:
+        url('http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg') no-repeat center
+        center;\r\n  }\r\n</style>\r\n\r\n\r\n<style type=\"text/css\">\r\n\t.checkprice-list::before
+        {\r\n\tbackground-size: 285% !important;\r\n\tbackground-position:  -357px
+        -450px;\r\n\t}\r\n</style>\r\n\r\n<div class=\"module module-phones module-checkprice\">\r\n<h4
+        class=\"section-heading\">Check Price</h4>\r\n<ul class=\"checkprice-list\">\r\n<li><a
+        href=http://a.gsmarena.com/adclick.php?bannerid=60&zoneid=9&source=&dest=http%3A%2F%2Fwelectronics.com%2Fgsm%2FXIAOMI%2FXiaomi-MI5.HTML
+        target=_blank><i class=\"head-icon icon-cart\"></i>WElectronics</a></li></ul>\r\n</div>\r\n\t
+        \ \r\n                \r\n\r\n\r\n\r\n<div class=\"module reviews-xl-snazzy\">\r\n<h4
+        class=\"section-heading\">Xiaomi Mi 5 reviews</h4>\r\n\r\n<a href=\"xiaomi_mi_5_time_saver-review-1423.php\"
+        class=\"module-reviews-xl-link\">\r\n  <img class=\"module-reviews-xl-thumb\"
+        src=\"http://cdn.gsmarena.com/imgroot/reviews/16/xiaomi-mi-5/lifestyle/-347x151/gsmarena_011.jpg\"
+        alt=\"Xiaomi Mi 5 review: Time-saver edition\">\r\n  <div class=\"module-review-xl-title\">\r\n
+        \   <span>Time-saver edition</span><br>\r\n    <strong>Xiaomi Mi 5 review</strong>\r\n
+        \ </div>\r\n</a>\r\n<a href=\"xiaomi_mi_5-review-1411.php\" class=\"module-reviews-xl-link\">\r\n
+        \ <img class=\"module-reviews-xl-thumb\" src=\"http://cdn.gsmarena.com/imgroot/reviews/16/xiaomi-mi-5/-347x151/thumb.jpg\"
+        alt=\"Xiaomi Mi 5 review: Form and function\">\r\n  <div class=\"module-review-xl-title\">\r\n
+        \   <span>Form and function</span><br>\r\n    <strong>Xiaomi Mi 5 review</strong>\r\n
+        \ </div>\r\n</a>\r\n\r\n</div>\r\n\t\r\n<div class=\"module\">\r\n\r\n\r\n<script
+        type=\"text/javascript\" src='http://adn.ebay.com/files/js/min/ebay_activeContent-min.js'></script>\r\n<script
+        charset=\"utf-8\" type=\"text/javascript\">\r\ndocument.write('\\x3Cscript
+        type=\"text/javascript\" charset=\"utf-8\" src=\"http://adn.ebay.com/cb?programId=1&campId=5336676177&toolId=10026&customId=sky&keyword=Xiaomi+Mi+5&minPrice=50&width=300&height=308&font=1&textColor=333366&linkColor=333333&arrowColor=FFAF5E&color1=63769A&color2=[COLORTWO]&format=ImageLink&contentType=TEXT_AND_IMAGE&enableSearch=y&usePopularSearches=n&freeShipping=n&topRatedSeller=n&itemsWithPayPal=n&descriptionSearch=n&showKwCatLink=n&excludeCatId=&excludeKeyword=&catId=3312&disWithin=200&ctx=n&autoscroll=n&flashEnabled='
+        + isFlashEnabled + '&pageTitle=' + _epn__pageTitle + '&cachebuster=' + (Math.floor(Math.random()
+        * 10000000 )) + '\">\\x3C/script>' );\r\n</script>\r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n<div
+        class=\"module\">\r\n<h4 class=\"section-heading\">Video review</h4>\r\n<iframe
+        width=\"300\" height=\"169\" src=\"https://www.youtube.com/embed/0cD4uxH08TQ\"
+        frameborder=\"0\" allowfullscreen></iframe>\r\n</div>\r\n\t\t\t\t\r\n<div
+        class=\"module module-phones module-related\">\t\t\t\t\r\n<h4 class=\"section-heading\"><a
+        href=\"related.php3?idPhone=6948\">Related devices</a></h4>\r\n\r\n<ul class=\"clearfix\">\r\n<li><a
+        class=\"module-phones-link\" href=\"oneplus_3-7995.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/oneplus-3-.jpg\"
+        alt=\"Phone\" /><br>OnePlus 3</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_note_3-7863.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi Note 3</a></li><li><a class=\"module-phones-link\"
+        href=\"samsung_galaxy_s7-7821.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7--.jpg\"
+        alt=\"Phone\" /><br>Samsung Galaxy S7</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_note_4-8291.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi Note 4</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_mi_max-8057.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Mi Max</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_pro-8233.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pro.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi Pro</a></li>\t\t\t\t\t\r\n</ul>\r\n<p class=\"more\"><a
+        class=\"more-news-link\" href=\"related.php3?idPhone=6948\">More related devices</a></p>\t\t\t\t\t\r\n</div>\r\n\r\n\t\t\t\t\r\n<div
+        class=\"module module-phones module-related phonelist\">\t\t\t\t\r\n<h4 class=\"section-heading\"><a
+        href=xiaomi-phones-80.php>Popular from Xiaomi</a></h4>\r\n\r\n<ul class=\"clearfix\">\r\n<li><a
+        class=\"module-phones-link\" href=\"xiaomi_redmi_note_3-7863.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi Note 3</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_3s_prime-8250.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi 3s Prime</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_3s-8150.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi 3s</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_mi_5-6948.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Mi 5</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_note_4-8291.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi Note 4</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_redmi_3_pro-8007.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Redmi 3 Pro</a></li>\t\t\t\t\t\r\n</ul>\r\n\t\t\t\t\t\r\n<p
+        class=\"more\"><a class=\"more-news-link\" href=\"xiaomi-phones-80.php\">More
+        from Xiaomi</a></p></div>\r\n\r\n</aside>\r\n\r\n</div><!-- id body -->\r\n</div><!--
+        id outer -->\r\n\r\n\r\n<div id=\"footer\">\r\n <div class=\"footer-logo\">\r\n
+        \    <img src=\"http://cdn2.gsmarena.com/w/css/logo-gsmarena-com.gif\" alt=\"\"
+        />\r\n    </div>\r\n    <div id=\"footmenu\">\r\n<p>\r\n<a href=\"/\">Home</a>\r\n<a
+        href=\"news.php3\">News</a>\r\n<a href=\"reviews.php3\">Reviews</a>\r\n<a
+        href=\"blog.php3\">Blog</a>\r\n<a href=\"compare.php3\">Compare</a>\r\n<a
+        href=\"network-bands.php3\">Coverage</a>\r\n<a href=\"glossary.php3\">Glossary</a>\r\n<a
+        href=\"faq.php3\">FAQ</a>\r\n\r\n<a href=\"rss-news-reviews.php3\" class=\"rss-icon\">RSS
+        feed</a></li>\r\n<a target=\"_blank\" href=\"https://www.facebook.com/GSMArenacom-189627474421/\"
+        class=\"fb-icon\">Facebook</a>\r\n<a target=\"_blank\" href=\"http://twitter.com/gsmarena_com\"
+        class=\"tw-icon\">Twitter</a>\r\n\r\n</p>\r\n<p>\r\n&copy; 2000-2016 <a href=\"team.php3\">GSMArena.com</a>
+        \r\n<a href=\"http://www.gsmarena.com/switch.php3?ver=mobile&ref=MGd2fnBydkBydkAqMikmKycxb3dv\">Mobile
+        version</a>\r\n<a href=\"contact.php3\">Contact us</a>\r\n<a href=\"advert.php3\">Advertising</a>\r\n<a
+        href=\"privacy.php3\">Privacy</a> \r\n<a href=\"terms.php3\">Terms of use</a>\r\n\t\t\t\r\n</p>\t\t\t\r\n<div
+        id=\"cdn-hosting\">\r\n<a href=\"http://www.maxcdn.com/\" target=\"_blank\"
+        rel=\"nofollow\">\r\n  <span class=\"center\">CDN by</span><br />\r\n  <img
+        src=\"http://cdn2.gsmarena.com/w/css/maxcdn.gif\" alt=\"\" />\r\n</a>\r\n</div>\r\n
+        \ </div>\r\n </div>\r\n \r\n \r\n\r\n</div>\r\n\r\n\r\n<script>\r\n\t(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n\t(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),\r\n\tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n\t})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n\tga('create',
+        'UA-131096-1', 'auto' );\r\n\tga('send', 'pageview'\r\n, { 'dimension2': '3'
+        }\r\n\t);\r\n\r\n</script>\r\n\r\n</body></html>"
+    http_version: 
+  recorded_at: Sun, 18 Sep 2016 15:33:45 GMT
+recorded_with: VCR 3.0.3

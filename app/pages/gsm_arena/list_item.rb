@@ -8,10 +8,10 @@ module GsmArena
     def call
       {
         description: description,
-        image_url: image_url,
-        title: title,
         id: attr("href").split(".php").first,
-        source: "gsm_arena"
+        image_url: image_url,
+        source: "gsm_arena",
+        title: title
       }
     end
 

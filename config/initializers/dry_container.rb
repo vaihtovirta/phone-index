@@ -1,5 +1,6 @@
 EXTERNAL_APIS = {
-  gsm_arena: "http://gsmarena.com/results.php3"
+  gsm_arena: "http://gsmarena.com",
+  gsm_arena_search: "http://gsmarena.com/results.php3"
 }.freeze
 
 class Container

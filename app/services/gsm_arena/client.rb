@@ -22,7 +22,10 @@ module GsmArena
 
     def search_results_html
       resolve(:http_client)
-        .get(resolve("external_apis.gsm_arena"), params: { sName: query })
+        .get(
+          resolve("external_apis.gsm_arena_search"),
+          params: { sName: query }
+        )
         .to_s
     end
   end
