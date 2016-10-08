@@ -10,7 +10,7 @@
 br
 
 .no-products(ng-if="!$ctrl.productGroups.length")
-  h1.title.has-text-centered(ng-bind="$ctrl.placeholderText()")
+  h1.title.has-text-centered(ng-bind="$ctrl.placeholderText ")
 .products(ng-repeat="group in $ctrl.productGroups")
   .columns
     div(ng-repeat="product in group")

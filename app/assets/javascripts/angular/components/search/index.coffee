@@ -6,16 +6,16 @@ SearchController = (Search, $state) ->
     Search.products.getList(query: ctrl.query).then (products) ->
       ctrl.productGroups = _.chunk products, 4
       ctrl.form.$setPristine() if products?.length
+      ctrl.setPlaceholderText()
 
-
-  placeholderText = ->
+  setPlaceholderText = ->
     { form, productGroups } = ctrl
 
     if !productGroups?.length && form.$submitted
-      "No products found."
+      ctrl.placeholderText = "No products found."
 
   ctrl.search = search
-  ctrl.placeholderText = placeholderText
+  ctrl.setPlaceholderText = setPlaceholderText
 
   return
 
