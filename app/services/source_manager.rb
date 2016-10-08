@@ -17,7 +17,7 @@ class SourceManager
   end
 
   def raw_html
-    "#{namespace}::Client"
+    "#{namespace}Client"
       .safe_constantize
       &.new(query)
       .send(page)

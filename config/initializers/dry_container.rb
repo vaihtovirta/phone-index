@@ -1,6 +1,8 @@
 EXTERNAL_APIS = {
-  gsm_arena: "http://gsmarena.com",
-  gsm_arena_search: "http://gsmarena.com/results.php3"
+  gsm_arena: {
+    device_url: "http://gsmarena.com",
+    search_url: "http://gsmarena.com/results.php3"
+  }
 }.freeze
 
 class Container
@@ -8,8 +10,10 @@ class Container
 end
 
 Container.namespace(:external_apis) do
-  EXTERNAL_APIS.each do |name, url|
-    register(name, -> { url }, memoize: true)
+  EXTERNAL_APIS.each do |name, hash|
+    namespace(name) do
+      hash.each { |key, url| register(key, -> { url }, memoize: true) }
+    end
   end
 end
 Container.register(

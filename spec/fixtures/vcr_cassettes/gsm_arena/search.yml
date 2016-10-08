@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0
+      - Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62
       Connection:
       - close
       Host:
@@ -19,7 +19,7 @@ http_interactions:
       message: Found
     headers:
       Date:
-      - Sun, 18 Sep 2016 15:37:34 GMT
+      - Sat, 08 Oct 2016 19:04:31 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Location:
@@ -43,7 +43,7 @@ http_interactions:
         <address>Apache/2.2.15 (CentOS) Server at gsmarena.com Port 80</address>
         </body></html>
     http_version: 
-  recorded_at: Sun, 18 Sep 2016 15:37:37 GMT
+  recorded_at: Sat, 08 Oct 2016 19:04:30 GMT
 - request:
     method: get
     uri: http://www.gsmarena.com/results.php3?sName=xiaomi
@@ -52,7 +52,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0
+      - Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62
       Connection:
       - close
       Host:
@@ -63,7 +63,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 18 Sep 2016 15:37:35 GMT
+      - Sat, 08 Oct 2016 19:04:31 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       X-Powered-By:
@@ -141,12 +141,11 @@ http_interactions:
         \     <!-- SOCIAL CONNECT -->\r\n    </div>\r\n    \r\n\r\n</header> <!---
         HEADER END -->\r\n\r\n\r\n\t\t\r\n\r\n<div id=\"wrapper\" class=\"l-container\">\r\n<div
         id=\"outer\" class=\"row\">\r\n\r\n\r\n<div id=\"subHeader\" class=\"col\">\r\n<div
-        id=\"topPromo\">\t\t\r\n\t\t<div class=\"alt-display is-review\" style=\"background-image:
-        url(http://cdn.gsmarena.com/imgroot/reviews/16/oneplus-3/-347x151/gsmarena_001.jpg)\">\r\n\t\t
-        \ <a class=\"table-cell reviews-xl-snazzy\" href=\"oneplus_3-review-1455.php\">\r\n\t\t\t
-        \ <div class=\"module-review-xl-title\">\r\n\t\t\t \r\n\t\t\t    \t<span>Confidence
-        booster</span><br>\r\n\t\t\t    \t<strong>OnePlus 3 review</strong>\r\n\t\t\t
-        \  \r\n\t\t\t  \r\n\t\t \t  </div>\r\n\t\t </a>\r\n\t  </div>\r\n</div><div
+        id=\"topPromo\"><div class=\"alt-display\" style=\"background: #ffcc66;\">\r\n
+        \ <div class=\"table-cell\">\r\n  <a class=\"h2\" href=\"the_32gb_iphone_7_plus_uses_a_substantially_slower_storage_our_tests_show-blog-20943.php\">\r\n
+        \     <div class=\"top-promo-image\"><img src=\"http://cdn.gsmarena.com/imgroot/news/16/10/iphone-7-32-slow-storage/-344x215/gsmarena_001.jpg\"
+        alt=\"\" title=\"\" style=\"left: -46%\"></div>\r\n       MemoryGate: 32GB
+        iPhone 7 storage much slower than 128GB version\r\n  </a>\r\n  </div>\r\n</div>\r\n</div><div
         id=\"topAdv\" class=\"l-box\">\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
         \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
         = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
@@ -172,7 +171,7 @@ http_interactions:
         \ \r\n<li class=\"article-info-meta-link light large help help-review\">\t\r\n<a
         href=\"search.php3?sName=xiaomi\"><i class=\"head-icon icon-equalizer2\"></i>Refine</a></li>\r\n</ul>\r\n\r\n
         \   </div>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"st-text\">\r\n\t<p>Your
-        search returned <b>37</b> results.<br> To refine your search <a href=\"search.php3?sName=xiaomi\">click
+        search returned <b>38</b> results.<br> To refine your search <a href=\"search.php3?sName=xiaomi\">click
         here</a>.</p>\r\n\t</div>\r\n\r\n\r\n\r\n<div id=\"review-body\" class=\"section-body\">\r\n<div
         class=\"makers\">\r\n<ul>\r\n\r\n\r\n\r\n<li><a href=\"xiaomi_redmi_note_3-7863.php\"><img
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg title=\"Xiaomi
@@ -201,20 +200,29 @@ http_interactions:
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-.jpg title=\"Xiaomi Mi
         Max Android smartphone. Announced 2016, May. Features 3G, 6.44&Prime; IPS
         LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        Max</span></strong></a></li><li><a href=\"xiaomi_redmi_3-7862.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-.jpg
+        Max</span></strong></a></li><li><a href=\"xiaomi_mi_5s-7260.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5s1.jpg
+        title=\"Xiaomi Mi 5s Android smartphone. Announced 2016, September. Features
+        3G, 5.15&Prime; IPS LCD capacitive touchscreen, 12 MP camera, Wi-Fi, GPS,
+        Bluetooth.\"><strong><span>Xiaomi<br>Mi 5s</span></strong></a></li><li><a
+        href=\"xiaomi_redmi_3-7862.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-.jpg
         title=\"Xiaomi Redmi 3 Android smartphone. Announced 2016, January. Features
         3G, 5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        3</span></strong></a></li><li><a href=\"xiaomi_redmi_pro-8233.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pro.jpg
-        title=\"Xiaomi Redmi Pro Android smartphone. Announced 2016, July. Features
-        3G, 5.5&Prime; LTPS-AMOLED capacitive touchscreen, Dual 13 MP + 5MP camera,
-        Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi Pro</span></strong></a></li><li><a
-        href=\"xiaomi_mi_4-6518.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4.jpg
-        title=\"Xiaomi Mi 4 Android smartphone. Announced 2014, July. Features 5.0&Prime;
-        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        3</span></strong></a></li><li><a href=\"xiaomi_mi_5s_plus-8350.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5s-plus.jpg title=\"Xiaomi
+        Mi 5s Plus Android smartphone. Announced 2016, September. Features 3G, 5.7&Prime;
+        IPS LCD capacitive touchscreen, Dual 12 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        5s Plus</span></strong></a></li><li><a href=\"xiaomi_mi_4-6518.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4.jpg title=\"Xiaomi Mi 4
+        Android smartphone. Announced 2014, July. Features 5.0&Prime; IPS LCD capacitive
+        touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
         4</span></strong></a></li><li><a href=\"xiaomi_redmi_2-6884.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2.jpg
         title=\"Xiaomi Redmi 2 Android smartphone. Announced 2015, January. Features
         3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        2</span></strong></a></li><li><a href=\"xiaomi_mi_4i-7211.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi4i.jpg
+        2</span></strong></a></li><li><a href=\"xiaomi_redmi_pro-8233.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pro.jpg
+        title=\"Xiaomi Redmi Pro Android smartphone. Announced 2016, July. Features
+        3G, 5.5&Prime; LTPS-AMOLED capacitive touchscreen, Dual 13 MP + 5MP camera,
+        Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi Pro</span></strong></a></li><li><a
+        href=\"xiaomi_mi_4i-7211.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi4i.jpg
         title=\"Xiaomi Mi 4i Android smartphone. Announced 2015, April. Features 3G,
         5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
         4i</span></strong></a></li><li><a href=\"xiaomi_redmi_note_2-6992.php\"><img
@@ -233,14 +241,13 @@ http_interactions:
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3x.jpg title=\"Xiaomi
         Redmi 3x Android smartphone. Announced 2016, June. Features 3G, 5.0&Prime;
         IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        3x</span></strong></a></li><li><a href=\"xiaomi_mi_note_2-8014.php\"><img
-        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg title=\"Xiaomi
-        Mi Note 2 Android smartphone. Exp. announcement 2016, September. Features
-        3G, 5.7&Prime; Super AMOLED capacitive touchscreen, 16 MP camera, Wi-Fi, GPS,
-        Bluetooth.\"><strong><span>Xiaomi<br>Mi Note 2</span></strong></a></li><li><a
-        href=\"xiaomi_redmi_note-6217.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-new.jpg
-        title=\"Xiaomi Redmi Note Android smartphone. Announced 2014, March. Features
-        3G, 5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        3x</span></strong></a></li><li><a href=\"xiaomi_redmi_1s-6373.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/Xiaomi-Hongmi-Redmi-1s.jpg
+        title=\"Xiaomi Redmi 1S Android smartphone. Announced 2014, May. Features
+        3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        1S</span></strong></a></li><li><a href=\"xiaomi_redmi_note-6217.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-new.jpg title=\"Xiaomi
+        Redmi Note Android smartphone. Announced 2014, March. Features 3G, 5.5&Prime;
+        IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
         Note</span></strong></a></li><li><a href=\"xiaomi_redmi_note_4g-6561.php\"><img
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4g.jpg title=\"Xiaomi
         Redmi Note 4G Android smartphone. Announced 2014, August. Features 3G, 5.5&Prime;
@@ -249,35 +256,33 @@ http_interactions:
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi3.jpg title=\"Xiaomi Mi 3
         Android smartphone. Announced 2013, September. Features 3G, 5.0&Prime; IPS
         LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        3</span></strong></a></li><li><a href=\"xiaomi_redmi_1s-6373.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/Xiaomi-Hongmi-Redmi-1s.jpg
-        title=\"Xiaomi Redmi 1S Android smartphone. Announced 2014, May. Features
-        3G, 4.7&Prime; IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        1S</span></strong></a></li><li><a href=\"xiaomi_redmi_note_3_(mediatek)-7769.php\"><img
-        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg title=\"Xiaomi
-        Redmi Note 3 (MediaTek) Android smartphone. Announced 2015, November. Features
-        3G, 5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        Note 3 (MediaTek)</span></strong></a></li><li><a href=\"xiaomi_mi_4s-7962.php\"><img
-        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4s.jpg title=\"Xiaomi Mi
-        4s Android smartphone. Announced 2016, February. Features 3G, 5.0&Prime; IPS
-        LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        4s</span></strong></a></li><li><a href=\"xiaomi_mi_note_pro-6952.php\"><img
+        3</span></strong></a></li><li><a href=\"xiaomi_mi_note_2-8014.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg
+        title=\"Xiaomi Mi Note 2 Android smartphone. Exp. announcement 2016, September.
+        Features 3G, 5.7&Prime; Super AMOLED capacitive touchscreen, 16 MP camera,
+        Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi Note 2</span></strong></a></li><li><a
+        href=\"xiaomi_redmi_note_3_(mediatek)-7769.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg
+        title=\"Xiaomi Redmi Note 3 (MediaTek) Android smartphone. Announced 2015,
+        November. Features 3G, 5.5&Prime; IPS LCD capacitive touchscreen, 13 MP camera,
+        Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi Note 3 (MediaTek)</span></strong></a></li><li><a
+        href=\"xiaomi_mi_4s-7962.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4s.jpg
+        title=\"Xiaomi Mi 4s Android smartphone. Announced 2016, February. Features
+        3G, 5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        4s</span></strong></a></li><li><a href=\"xiaomi_mi_note-6944.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg
+        title=\"Xiaomi Mi Note Android smartphone. Announced 2015, January. Features
+        3G, 5.7&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
+        Note</span></strong></a></li><li><a href=\"xiaomi_mi_note_pro-6952.php\"><img
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-pro2.jpg title=\"Xiaomi
         Mi Note Pro Android smartphone. Announced 2015, January. Features 3G, 5.7&Prime;
         IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        Note Pro</span></strong></a></li><li><a href=\"xiaomi_mi_note-6944.php\"><img
-        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-note-2015.jpg title=\"Xiaomi
-        Mi Note Android smartphone. Announced 2015, January. Features 3G, 5.7&Prime;
+        Note Pro</span></strong></a></li><li><a href=\"xiaomi_mi_4_lte-6866.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4-lte.jpg title=\"Xiaomi
+        Mi 4 LTE Android smartphone. Announced 2014, December. Features 3G, 5.0&Prime;
         IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        Note</span></strong></a></li><li><a href=\"xiaomi_mi_5s-7260.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg
-        title=\"Xiaomi Mi 5S Android smartphone. Not announced yet. Features 3G, 5.15&Prime;
-        IPS LCD capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        5S</span></strong></a></li><li><a href=\"xiaomi_redmi_4-8263.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg
-        title=\"Xiaomi Redmi 4 Android smartphone. Not announced yet. Features 3G,
-        5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
-        4</span></strong></a></li><li><a href=\"xiaomi_mi_4_lte-6866.php\"><img src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4-lte.jpg
-        title=\"Xiaomi Mi 4 LTE Android smartphone. Announced 2014, December. Features
-        3G, 5.0&Prime; IPS LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Mi
-        4 LTE</span></strong></a></li><li><a href=\"xiaomi_redmi_2_pro-7710.php\"><img
+        4 LTE</span></strong></a></li><li><a href=\"xiaomi_redmi_4-8263.php\"><img
+        src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3-pro-.jpg title=\"Xiaomi
+        Redmi 4 Android smartphone. Not announced yet. Features 3G, 5.0&Prime; IPS
+        LCD capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
+        4</span></strong></a></li><li><a href=\"xiaomi_redmi_2_pro-7710.php\"><img
         src=http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2-prime-.jpg title=\"Xiaomi
         Redmi 2 Pro Android smartphone. Announced 2015, October. Features 3G, 4.7&Prime;
         IPS LCD capacitive touchscreen, 8 MP camera, Wi-Fi, GPS, Bluetooth.\"><strong><span>Xiaomi<br>Redmi
@@ -368,5 +373,5 @@ http_interactions:
         'UA-131096-1', 'auto' );\r\n\tga('send', 'pageview'\r\n, { 'dimension2': '42'
         }\r\n\t);\r\n\r\n</script>\r\n\r\n</body></html>"
     http_version: 
-  recorded_at: Sun, 18 Sep 2016 15:37:38 GMT
+  recorded_at: Sat, 08 Oct 2016 19:04:30 GMT
 recorded_with: VCR 3.0.3

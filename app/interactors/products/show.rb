@@ -9,7 +9,7 @@ module Products
     end
 
     def call
-      context.product = ::SourceManager.call(source, id, "show")
+      context.product = SourceManager.call(source, id, "show")
     end
   end
 end

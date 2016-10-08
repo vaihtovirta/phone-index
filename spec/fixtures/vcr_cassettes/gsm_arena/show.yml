@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Opera/9.80 (Windows NT 5.1; U; en) Presto/2.9.168 Version/11.51
+      - Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62
       Connection:
       - close
       Host:
@@ -19,7 +19,7 @@ http_interactions:
       message: Found
     headers:
       Date:
-      - Sun, 18 Sep 2016 15:33:36 GMT
+      - Sat, 08 Oct 2016 19:04:30 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Location:
@@ -43,7 +43,7 @@ http_interactions:
         <address>Apache/2.2.15 (CentOS) Server at gsmarena.com Port 80</address>
         </body></html>
     http_version: 
-  recorded_at: Sun, 18 Sep 2016 15:33:39 GMT
+  recorded_at: Sat, 08 Oct 2016 19:04:29 GMT
 - request:
     method: get
     uri: http://www.gsmarena.com/xiaomi_mi_5-6948.php
@@ -52,7 +52,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Opera/9.80 (Windows NT 5.1; U; en) Presto/2.9.168 Version/11.51
+      - Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62
       Connection:
       - close
       Host:
@@ -63,13 +63,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 18 Sep 2016 15:33:37 GMT
+      - Sat, 08 Oct 2016 19:04:31 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       X-Powered-By:
       - PHP/5.5.38
       Set-Cookie:
-      - sHistory=6948; expires=Tue, 18-Oct-2016 15:33:38 GMT; Max-Age=2592000
+      - sHistory=6948; expires=Mon, 07-Nov-2016 19:04:31 GMT; Max-Age=2592000
       Vary:
       - Accept-Encoding
       Connection:
@@ -150,12 +150,12 @@ http_interactions:
         = \"Xiaomi Mi 5\";\r\nHISTORY_ITEM_URL = \"xiaomi_mi_5-6948.php\";\r\nHISTORY_ITEM_IMAGE
         = \"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg\";\r\n\r\n</script>\r\n<div
         id=\"wrapper\" class=\"l-container\">\r\n<div id=\"outer\" class=\"row\">\r\n\r\n\r\n<div
-        id=\"subHeader\" class=\"col\">\r\n<div id=\"topPromo\">\t\t\r\n\t\t<div class=\"alt-display
-        is-review\" style=\"background-image: url(http://cdn.gsmarena.com/imgroot/reviews/16/sony-xperia-xa-ultra/review/thumb/-347x151/gsmarena_002.jpg)\">\r\n\t\t
-        \ <a class=\"table-cell reviews-xl-snazzy\" href=\"sony_xperia_xa_ultra-review-1465.php\">\r\n\t\t\t
-        \ <div class=\"module-review-xl-title\">\r\n\t\t\t \r\n\t\t\t    \t<span>Lord
-        of the selfies</span><br>\r\n\t\t\t    \t<strong>Sony Xperia XA Ultra review</strong>\r\n\t\t\t
-        \  \r\n\t\t\t  \r\n\t\t \t  </div>\r\n\t\t </a>\r\n\t  </div>\r\n</div><div
+        id=\"subHeader\" class=\"col\">\r\n<div id=\"topPromo\"><div class=\"alt-display\"
+        style=\"background: #ffcc66;\">\r\n  <div class=\"table-cell\">\r\n  <a class=\"h2\"
+        href=\"the_32gb_iphone_7_plus_uses_a_substantially_slower_storage_our_tests_show-blog-20943.php\">\r\n
+        \     <div class=\"top-promo-image\"><img src=\"http://cdn.gsmarena.com/imgroot/news/16/10/iphone-7-32-slow-storage/-344x215/gsmarena_001.jpg\"
+        alt=\"\" title=\"\" style=\"left: -46%\"></div>\r\n       MemoryGate: 32GB
+        iPhone 7 storage much slower than 128GB version\r\n  </a>\r\n  </div>\r\n</div>\r\n</div><div
         id=\"topAdv\" class=\"l-box\">\r\n<script language='JavaScript' type='text/javascript'>\r\n<!--\r\n
         \  if (!document.phpAds_used) document.phpAds_used = ',';\r\n   phpAds_random
         = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);\r\n
@@ -168,13 +168,10 @@ http_interactions:
         href='http://a.gsmarena.com/adclick.php?n=afad88d6' target='_blank'><img src='http://a.gsmarena.com/adview.php?what=zone:5&amp;n=afad88d6'
         border='0' alt=''></a></noscript>\r\n</div>   \r\n</div>\r\n\r\n\r\n<div id=\"body\">\r\n\r\n<div
         class=\"main main-review right l-box col\">  \r\n\r\n<div class=\"review-header
-        hreview\">  \r\n    <div class=\"article-info\">\r\n<style type=\"text/css\">\r\n
-        \   .review-header::after {\r\n\tbackground-image:url( http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg
-        );\r\n\tbackground-size: 285%;\r\n\tbackground-position: -866px -1092px;\r\n
-        \   }\r\n</style>\r\n\r\n\r\n        <div class=\"article-info-line page-specs
-        light border-bottom\">\r\n            <div class=\"blur review-background\"></div>\r\n
-        \           <h1 class=\"specs-phone-name-title\">Xiaomi Mi 5</h1>\r\n\r\n\r\n\r\n<script>\r\n\tvar
-        sURLSocialE = \"http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\";\r\n</script>\r\n\r\n\r\n<ul
+        hreview fallback\">  \r\n    <div class=\"article-info\">\r\n\r\n\r\n        <div
+        class=\"article-info-line page-specs light border-bottom\">\r\n            <div
+        class=\"blur review-background\"></div>\r\n            <h1 class=\"specs-phone-name-title\">Xiaomi
+        Mi 5</h1>\r\n\r\n\r\n\r\n<script>\r\n\tvar sURLSocialE = \"http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\";\r\n</script>\r\n\r\n\r\n<ul
         class=\"social-share sharrre\">\r\n<li class=\"help help-social\">\r\n  <a
         class=\"box btnFb\" title=\"Facebook\" id=\"facebook\" href=\"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php\"
         target=\"_blank\" onclick=\"window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.gsmarena.com%2Fxiaomi_mi_5-6948.php','fbookshare','width=500,height=400,left='+(screen.availWidth/2-225)+',top='+(screen.availHeight/2-150)+'');return
@@ -203,10 +200,10 @@ http_interactions:
         class=\"specs-brief-accent\"><i class=\"head-icon icon-sd-card-0\"></i>128GB
         storage, no card slot</span>  \r\n      \r\n      <span class=\"help help-quickfacts\"></span>\r\n
         \   </li>\r\n    \r\n    <li class=\"light pattern help help-popularity\">\r\n
-        \    \r\n      <strong class=\"accent\"> <i class=\"head-icon icon-popularity\"></i>19%</strong>\r\n
-        \     <span>15,852,049 hits</span></li>\r\n    <li class=\"light pattern help
+        \    \r\n      <strong class=\"accent\"> <i class=\"head-icon icon-popularity\"></i>32%</strong>\r\n
+        \     <span>16,823,298 hits</span></li>\r\n    <li class=\"light pattern help
         help-fans\">\r\n      <a class=\"specs-fans\" href=\"\">\r\n        <strong
-        class=\"accent\"><i class=\"head-icon icon-fans\"></i>1322</strong>\r\n        <span>Become
+        class=\"accent\"><i class=\"head-icon icon-fans\"></i>1352</strong>\r\n        <span>Become
         a fan</span>\r\n      </a>\r\n    </li>\r\n    <li class=\"help accented help-display\">\r\n
         \     <i class=\"head-icon icon-touch-1\"></i>\r\n      <strong class=\"accent\">5.15\"</strong>1080x1920
         pixels    </li>\r\n    <li class=\"help accented help-camera\">\r\n      <i
@@ -377,30 +374,29 @@ http_interactions:
         id=\"user-comments\" class=\"box s3 nobg\">\r\n<h2><a href=\"xiaomi_mi_5-reviews-6948.php\">Xiaomi
         Mi 5 - user opinions and reviews</a></h2>\r\n\t\t\t\t\t\t\r\n<div class=\"user-thread\">\r\n<div
         class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul class=\"uinfo2\">\r\n<li
-        class=\"uname2\">choose1998</li>\r\n<li class=\"ulocation\">\r\n<i class=\"head-icon
-        icon-location\"></i>\r\n<span title=\"Encoded location\">9B21</span></li>\r\n<li
-        class=\"upost\"><time>28 minutes ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">i
-        just know it will come in end of septemper in china.</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li
-        class=\"ureply\">\r\n<span title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5362303\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
-        class=\"user-thread\">\r\n<div class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul
-        class=\"uinfo2\">\r\n<li class=\"uname2\">Abhishek Kumar</li>\r\n<li class=\"ulocation\">\r\n<i
-        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">gNRC</span></li>\r\n<li
-        class=\"upost\"><time>2 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">I
-        am using this phone by last 15 days,all things are good accept it's battery
-        nd screen.its battery last for only 10 hours once you charge for full nd in
-        sunlight screen is pathetic. \r\nGo for Asus genuine 3 or apple iphone 5S</p>\r\n\r\n<ul
+        class=\"uname2\">Yasin</li>\r\n<li class=\"ulocation\">\r\n<i class=\"head-icon
+        icon-location\"></i>\r\n<span title=\"Encoded location\">U{iM</span></li>\r\n<li
+        class=\"upost\"><time>3 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">Hi
+        guy's How long i should charge my mi5 phone please tell me </p>\r\n\r\n<ul
         class=\"uinfo\">\r\n<li class=\"ureply\">\r\n<span title=\"Reply to this post\">\r\n<a
-        href=\"postopinion.php3?idPhone=6948&idOpinion=5362197\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
+        href=\"postopinion.php3?idPhone=6948&idOpinion=5392926\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
         class=\"user-thread\">\r\n<div class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul
-        class=\"uinfo2\">\r\n<li class=\"uname2\">choose1998</li>\r\n<li class=\"ulocation\">\r\n<i
-        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">9y86</span></li>\r\n<li
-        class=\"upost\"><time>7 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">i
-        like xiaomi 5.its very fast.</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li class=\"ureply\">\r\n<span
-        title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5361803\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\r\n<div
+        class=\"uinfo2\">\r\n<li class=\"uname2\">waruna</li>\r\n<li class=\"ulocation\">\r\n<i
+        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">teqx</span></li>\r\n<li
+        class=\"upost\"><time>4 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">thank
+        u soooo much</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li class=\"ureply\">\r\n<span
+        title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5392821\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\t\t\t\t\r\n<div
+        class=\"user-thread\">\r\n<div class=\"uavatar\"><i class=\"head-icon icon-user\"></i></div>\r\n<ul
+        class=\"uinfo2\">\r\n<li class=\"uname2\">pradeep</li>\r\n<li class=\"ulocation\">\r\n<i
+        class=\"head-icon icon-location\"></i>\r\n<span title=\"Encoded location\">KSi2</span></li>\r\n<li
+        class=\"upost\"><time>8 hours ago</time></li>\r\n</ul>\r\n<p class=\"uopin\">i
+        bought a new phone i unboxed it and after that i tried to turn on phone ........can
+        any one telll what is the reason behind that????</p>\r\n\r\n<ul class=\"uinfo\">\r\n<li
+        class=\"ureply\">\r\n<span title=\"Reply to this post\">\r\n<a href=\"postopinion.php3?idPhone=6948&idOpinion=5392530\">Reply</a></span>\r\n</li>\r\n\r\n\r\n</ul>\r\n\r\n\r\n\r\n\r\n</div>\r\n\t\t\r\n<div
         class=\"sub-footer\">\r\n<div class=\"button-links\">\r\n<ul>\r\n\t\t\t\t\t\t\t\t\r\n<li><a
         class=\"button\" href=\"xiaomi_mi_5-reviews-6948.php\">Read all opinions</a></li>\r\n<li><a
         class=\"button\" href=\"postopinion.php3?idPhone=6948\">Post your opinion</a></li>\r\n</ul>\r\n\r\n</div>\r\n<div
-        id=\"opinions-total\">Total user opinions: <b>2740</b></div>\r\n<br class=\"clear\"
+        id=\"opinions-total\">Total user opinions: <b>2822</b></div>\r\n<br class=\"clear\"
         />\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\r\n\r\n</div>\r\n</div>\r\n\r\n<aside
         class=\"sidebar col left\">\r\n\r\n<div class=\"brandmenu-v2 light l-box clearfix\">\r\n<p
         class=\"pad\">\r\n<a href=\"search.php3\" class=\"pad-single pad-finder\">\r\n<i
@@ -443,11 +439,9 @@ http_interactions:
         the news</a></strong></li>\r\n\t\r\n\r\n\t\r\n\r\n\r\n</ul>\r\n</div>\r\n\r\n\t
         \ \r\n\r\n<style type=\"text/css\">\r\n.checkprice-list::before {\r\n    background:
         url('http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg') no-repeat center
-        center;\r\n  }\r\n</style>\r\n\r\n\r\n<style type=\"text/css\">\r\n\t.checkprice-list::before
-        {\r\n\tbackground-size: 285% !important;\r\n\tbackground-position:  -357px
-        -450px;\r\n\t}\r\n</style>\r\n\r\n<div class=\"module module-phones module-checkprice\">\r\n<h4
-        class=\"section-heading\">Check Price</h4>\r\n<ul class=\"checkprice-list\">\r\n<li><a
-        href=http://a.gsmarena.com/adclick.php?bannerid=60&zoneid=9&source=&dest=http%3A%2F%2Fwelectronics.com%2Fgsm%2FXIAOMI%2FXiaomi-MI5.HTML
+        center;\r\n  }\r\n</style>\r\n\r\n\r\n\r\n<div class=\"module module-phones
+        module-checkprice\">\r\n<h4 class=\"section-heading\">Check Price</h4>\r\n<ul
+        class=\"checkprice-list\">\r\n<li><a href=http://a.gsmarena.com/adclick.php?bannerid=60&zoneid=9&source=&dest=http%3A%2F%2Fwelectronics.com%2Fgsm%2FXIAOMI%2FXiaomi-MI5.HTML
         target=_blank><i class=\"head-icon icon-cart\"></i>WElectronics</a></li></ul>\r\n</div>\r\n\t
         \ \r\n                \r\n\r\n\r\n\r\n<div class=\"module reviews-xl-snazzy\">\r\n<h4
         class=\"section-heading\">Xiaomi Mi 5 reviews</h4>\r\n\r\n<a href=\"xiaomi_mi_5_time_saver-review-1423.php\"
@@ -472,6 +466,8 @@ http_interactions:
         href=\"related.php3?idPhone=6948\">Related devices</a></h4>\r\n\r\n<ul class=\"clearfix\">\r\n<li><a
         class=\"module-phones-link\" href=\"oneplus_3-7995.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/oneplus-3-.jpg\"
         alt=\"Phone\" /><br>OnePlus 3</a></li><li><a class=\"module-phones-link\"
+        href=\"xiaomi_mi_5s-7260.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5s1.jpg\"
+        alt=\"Phone\" /><br>Xiaomi Mi 5s</a></li><li><a class=\"module-phones-link\"
         href=\"xiaomi_redmi_note_3-7863.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg\"
         alt=\"Phone\" /><br>Xiaomi Redmi Note 3</a></li><li><a class=\"module-phones-link\"
         href=\"samsung_galaxy_s7-7821.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7--.jpg\"
@@ -479,9 +475,7 @@ http_interactions:
         href=\"xiaomi_redmi_note_4-8291.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg\"
         alt=\"Phone\" /><br>Xiaomi Redmi Note 4</a></li><li><a class=\"module-phones-link\"
         href=\"xiaomi_mi_max-8057.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-.jpg\"
-        alt=\"Phone\" /><br>Xiaomi Mi Max</a></li><li><a class=\"module-phones-link\"
-        href=\"xiaomi_redmi_pro-8233.php\"><img src=\"http://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pro.jpg\"
-        alt=\"Phone\" /><br>Xiaomi Redmi Pro</a></li>\t\t\t\t\t\r\n</ul>\r\n<p class=\"more\"><a
+        alt=\"Phone\" /><br>Xiaomi Mi Max</a></li>\t\t\t\t\t\r\n</ul>\r\n<p class=\"more\"><a
         class=\"more-news-link\" href=\"related.php3?idPhone=6948\">More related devices</a></p>\t\t\t\t\t\r\n</div>\r\n\r\n\t\t\t\t\r\n<div
         class=\"module module-phones module-related phonelist\">\t\t\t\t\r\n<h4 class=\"section-heading\"><a
         href=xiaomi-phones-80.php>Popular from Xiaomi</a></h4>\r\n\r\n<ul class=\"clearfix\">\r\n<li><a
@@ -520,5 +514,5 @@ http_interactions:
         'UA-131096-1', 'auto' );\r\n\tga('send', 'pageview'\r\n, { 'dimension2': '3'
         }\r\n\t);\r\n\r\n</script>\r\n\r\n</body></html>"
     http_version: 
-  recorded_at: Sun, 18 Sep 2016 15:33:45 GMT
+  recorded_at: Sat, 08 Oct 2016 19:04:29 GMT
 recorded_with: VCR 3.0.3

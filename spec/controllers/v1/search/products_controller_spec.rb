@@ -14,7 +14,7 @@ describe V1::Search::ProductsController, type: :request do
       let(:query) { "xiaomi" }
 
       it { is_expected.to eq 200 }
-      it { expect(json_response_body.size).to eq 37 }
+      it { expect(json_response_body.size).to eq 38 }
     end
 
     context "when query is blank" do

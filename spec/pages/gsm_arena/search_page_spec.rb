@@ -6,7 +6,7 @@ describe GsmArena::SearchPage do
   describe "#call" do
     let(:html) do
       VCR.use_cassette("gsm_arena/search") do
-        GsmArena::Client.new("xiaomi").search
+        GsmArenaClient.new("xiaomi").search
       end
     end
 
@@ -28,7 +28,7 @@ describe GsmArena::SearchPage do
 
     subject(:result) { service.call }
 
-    it { expect(result.size).to eq 37 }
+    it { expect(result.size).to eq 38 }
     it { expect(result).to include(product) }
   end
 end

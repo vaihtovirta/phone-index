@@ -14,9 +14,7 @@ module Products
     def call
       return if query.blank?
 
-      context.products = sources.map do |source|
-        ::SourceManager.call(source, query, "search")
-      end.flatten
+      context.products = sources.flat_map { |source| SourceManager.call(source, query, "search") }
     end
   end
 end

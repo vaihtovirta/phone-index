@@ -6,7 +6,7 @@ describe GsmArena::ShowPage do
   describe "#call" do
     let(:html) do
       VCR.use_cassette("gsm_arena/show") do
-        GsmArena::Client.new("xiaomi_mi_5-6948").show
+        GsmArenaClient.new("xiaomi_mi_5-6948").show
       end
     end
     let(:brief) do

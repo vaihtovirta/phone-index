@@ -10,7 +10,7 @@ describe SourceManager do
     let(:source) { "gsm_arena" }
 
     before do
-      allow(GsmArena::Client).to receive(:new).with(query).and_return(client)
+      allow(GsmArenaClient).to receive(:new).with(query).and_return(client)
       allow(client).to receive(:send).with(page)
     end
 
