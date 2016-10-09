@@ -1,4 +1,4 @@
-[![Codeship Status for olympicsmoker/phone-index](https://codeship.com/projects/f52805b0-6008-0134-1d94-065e33494ddb/status?branch=master)](https://codeship.com/projects/174462)
+[![Build Status](https://semaphoreci.com/api/v1/vaihtovirta/phone-index/branches/master/badge.svg)](https://semaphoreci.com/vaihtovirta/phone-index)
 [![Code Climate](https://codeclimate.com/github/vaihtovirta/phone-index/badges/gpa.svg)](https://codeclimate.com/github/vaihtovirta/phone-index)
 
 Web application for searching information about mobile devices from http://www.gsmarena.com
